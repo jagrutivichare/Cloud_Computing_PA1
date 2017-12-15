@@ -1,0 +1,1428 @@
+********************** CPU Benchmark **********************
+gcc -mavx2 cpu_benchmark.c -o cpu -lpthread
+./cpu -f -o 1000000000 -t 1
+CPU, 1 threads, speed = 6.84 Giga FLOPS/sec
+./cpu -f -o 1000000000 -t 2
+CPU, 2 threads, speed = 13.67 Giga FLOPS/sec
+./cpu -f -o 10000000000 -t 4
+CPU, 4 threads, speed = 27.09 Giga FLOPS/sec
+./cpu -f -o 10000000000 -t 8
+CPU, 8 threads, speed = 44.51 Giga FLOPS/sec
+./cpu -i -o 1000000000 -t 1
+CPU, 1 threads, speed = 13.11 Giga IOPS/sec
+./cpu -i -o 1000000000 -t 2
+CPU, 2 threads, speed = 26.18 Giga IOPS/sec
+./cpu -i -o 1000000000 -t 4
+CPU, 4 threads, speed = 51.39 Giga IOPS/sec
+./cpu -i -o 1000000000 -t 8
+CPU, 8 threads, speed = 93.89 Giga IOPS/sec
+***************** CPU Benchmark- Part f *******************
+gcc -mavx2 cpu_benchmark_2.c -o cpu2 -lpthread
+./cpu2 -f 
+CPU, 8 threads, speed = 38932106937.04 FLOPS/sec
+CPU, 8 threads, speed = 32510803339.47 FLOPS/sec
+CPU, 8 threads, speed = 30244764723.98 FLOPS/sec
+CPU, 8 threads, speed = 45069544000.71 FLOPS/sec
+CPU, 8 threads, speed = 45139289620.93 FLOPS/sec
+CPU, 8 threads, speed = 45173726073.69 FLOPS/sec
+CPU, 8 threads, speed = 45170358184.80 FLOPS/sec
+CPU, 8 threads, speed = 45150709864.97 FLOPS/sec
+CPU, 8 threads, speed = 45155931568.53 FLOPS/sec
+CPU, 8 threads, speed = 45166821914.12 FLOPS/sec
+CPU, 8 threads, speed = 45170136491.86 FLOPS/sec
+CPU, 8 threads, speed = 45146248638.77 FLOPS/sec
+CPU, 8 threads, speed = 45167571346.14 FLOPS/sec
+CPU, 8 threads, speed = 45123123461.45 FLOPS/sec
+CPU, 8 threads, speed = 45167307458.79 FLOPS/sec
+CPU, 8 threads, speed = 34935973541.42 FLOPS/sec
+CPU, 8 threads, speed = 30006569329.91 FLOPS/sec
+CPU, 8 threads, speed = 30013719735.64 FLOPS/sec
+CPU, 8 threads, speed = 35611852087.01 FLOPS/sec
+CPU, 8 threads, speed = 45147524691.46 FLOPS/sec
+CPU, 8 threads, speed = 45169566434.30 FLOPS/sec
+CPU, 8 threads, speed = 45168014683.84 FLOPS/sec
+CPU, 8 threads, speed = 45169344749.13 FLOPS/sec
+CPU, 8 threads, speed = 45102453139.41 FLOPS/sec
+CPU, 8 threads, speed = 45168679706.69 FLOPS/sec
+CPU, 8 threads, speed = 45169777565.05 FLOPS/sec
+CPU, 8 threads, speed = 45169967584.41 FLOPS/sec
+CPU, 8 threads, speed = 45137834824.74 FLOPS/sec
+CPU, 8 threads, speed = 45160088696.94 FLOPS/sec
+CPU, 8 threads, speed = 45166864134.98 FLOPS/sec
+CPU, 8 threads, speed = 45167391902.41 FLOPS/sec
+CPU, 8 threads, speed = 45151110680.23 FLOPS/sec
+CPU, 8 threads, speed = 45110000928.93 FLOPS/sec
+CPU, 8 threads, speed = 45167349680.56 FLOPS/sec
+CPU, 8 threads, speed = 45152429201.67 FLOPS/sec
+CPU, 8 threads, speed = 45148494961.62 FLOPS/sec
+CPU, 8 threads, speed = 45169914801.10 FLOPS/sec
+CPU, 8 threads, speed = 45171107734.18 FLOPS/sec
+CPU, 8 threads, speed = 45156986604.79 FLOPS/sec
+CPU, 8 threads, speed = 45161903723.97 FLOPS/sec
+CPU, 8 threads, speed = 45173324856.82 FLOPS/sec
+CPU, 8 threads, speed = 45178161050.76 FLOPS/sec
+CPU, 8 threads, speed = 45115076316.31 FLOPS/sec
+CPU, 8 threads, speed = 45152608526.53 FLOPS/sec
+CPU, 8 threads, speed = 45173863333.74 FLOPS/sec
+CPU, 8 threads, speed = 45175499960.03 FLOPS/sec
+CPU, 8 threads, speed = 45160711276.98 FLOPS/sec
+CPU, 8 threads, speed = 45140006511.51 FLOPS/sec
+CPU, 8 threads, speed = 45091236128.70 FLOPS/sec
+CPU, 8 threads, speed = 45145658093.34 FLOPS/sec
+CPU, 8 threads, speed = 45145320645.75 FLOPS/sec
+CPU, 8 threads, speed = 45153895487.94 FLOPS/sec
+CPU, 8 threads, speed = 45154686689.15 FLOPS/sec
+CPU, 8 threads, speed = 45168901385.33 FLOPS/sec
+CPU, 8 threads, speed = 45156596235.62 FLOPS/sec
+CPU, 8 threads, speed = 45150973558.42 FLOPS/sec
+CPU, 8 threads, speed = 45170315957.40 FLOPS/sec
+CPU, 8 threads, speed = 45173631048.00 FLOPS/sec
+CPU, 8 threads, speed = 45136780683.20 FLOPS/sec
+CPU, 8 threads, speed = 45154644491.06 FLOPS/sec
+CPU, 8 threads, speed = 45174486293.64 FLOPS/sec
+CPU, 8 threads, speed = 45168595258.26 FLOPS/sec
+CPU, 8 threads, speed = 45059708985.85 FLOPS/sec
+CPU, 8 threads, speed = 45158231610.98 FLOPS/sec
+CPU, 8 threads, speed = 45170717120.83 FLOPS/sec
+CPU, 8 threads, speed = 45163982742.33 FLOPS/sec
+CPU, 8 threads, speed = 45159033515.72 FLOPS/sec
+CPU, 8 threads, speed = 45170759348.98 FLOPS/sec
+CPU, 8 threads, speed = 45173683840.00 FLOPS/sec
+CPU, 8 threads, speed = 45171244978.31 FLOPS/sec
+CPU, 8 threads, speed = 45157883424.37 FLOPS/sec
+CPU, 8 threads, speed = 45159244548.02 FLOPS/sec
+CPU, 8 threads, speed = 45123608067.05 FLOPS/sec
+CPU, 8 threads, speed = 45171772848.12 FLOPS/sec
+CPU, 8 threads, speed = 45145658093.34 FLOPS/sec
+CPU, 8 threads, speed = 45178287777.19 FLOPS/sec
+CPU, 8 threads, speed = 45175098711.64 FLOPS/sec
+CPU, 8 threads, speed = 45174486293.64 FLOPS/sec
+CPU, 8 threads, speed = 45168542478.15 FLOPS/sec
+CPU, 8 threads, speed = 45174391264.75 FLOPS/sec
+CPU, 8 threads, speed = 45172796950.73 FLOPS/sec
+CPU, 8 threads, speed = 45121532764.05 FLOPS/sec
+CPU, 8 threads, speed = 45164299360.91 FLOPS/sec
+CPU, 8 threads, speed = 45176777666.85 FLOPS/sec
+CPU, 8 threads, speed = 45173324856.82 FLOPS/sec
+CPU, 8 threads, speed = 45157165965.85 FLOPS/sec
+CPU, 8 threads, speed = 45161513269.79 FLOPS/sec
+CPU, 8 threads, speed = 45172353519.16 FLOPS/sec
+CPU, 8 threads, speed = 45165534215.77 FLOPS/sec
+CPU, 8 threads, speed = 45166061952.11 FLOPS/sec
+CPU, 8 threads, speed = 45164257144.84 FLOPS/sec
+CPU, 8 threads, speed = 45124134824.07 FLOPS/sec
+CPU, 8 threads, speed = 45173462114.42 FLOPS/sec
+CPU, 8 threads, speed = 45160837905.53 FLOPS/sec
+CPU, 8 threads, speed = 45137571284.74 FLOPS/sec
+CPU, 8 threads, speed = 45159687722.27 FLOPS/sec
+CPU, 8 threads, speed = 45154549545.62 FLOPS/sec
+CPU, 8 threads, speed = 45157609099.30 FLOPS/sec
+CPU, 8 threads, speed = 41587537442.71 FLOPS/sec
+CPU, 8 threads, speed = 39140839362.12 FLOPS/sec
+CPU, 8 threads, speed = 45157123763.12 FLOPS/sec
+CPU, 8 threads, speed = 45095960061.86 FLOPS/sec
+CPU, 8 threads, speed = 45138193244.08 FLOPS/sec
+CPU, 8 threads, speed = 45168415806.39 FLOPS/sec
+CPU, 8 threads, speed = 45168985834.91 FLOPS/sec
+CPU, 8 threads, speed = 45145573730.97 FLOPS/sec
+CPU, 8 threads, speed = 45131869032.87 FLOPS/sec
+CPU, 8 threads, speed = 38792763567.71 FLOPS/sec
+CPU, 8 threads, speed = 42442119341.75 FLOPS/sec
+CPU, 8 threads, speed = 45143496407.06 FLOPS/sec
+CPU, 8 threads, speed = 45158801382.47 FLOPS/sec
+CPU, 8 threads, speed = 45125156767.77 FLOPS/sec
+CPU, 8 threads, speed = 45168721931.03 FLOPS/sec
+CPU, 8 threads, speed = 45142705597.95 FLOPS/sec
+CPU, 8 threads, speed = 45166378599.84 FLOPS/sec
+CPU, 8 threads, speed = 45171107734.18 FLOPS/sec
+CPU, 8 threads, speed = 44587305231.41 FLOPS/sec
+CPU, 8 threads, speed = 42692153887.75 FLOPS/sec
+CPU, 8 threads, speed = 45169999254.46 FLOPS/sec
+CPU, 8 threads, speed = 45173673281.59 FLOPS/sec
+CPU, 8 threads, speed = 45159202341.40 FLOPS/sec
+CPU, 8 threads, speed = 45094823702.45 FLOPS/sec
+CPU, 8 threads, speed = 45163940526.86 FLOPS/sec
+CPU, 8 threads, speed = 45168595258.26 FLOPS/sec
+CPU, 8 threads, speed = 45163096233.94 FLOPS/sec
+CPU, 8 threads, speed = 45160932877.41 FLOPS/sec
+CPU, 8 threads, speed = 45169165291.31 FLOPS/sec
+CPU, 8 threads, speed = 45161945935.64 FLOPS/sec
+CPU, 8 threads, speed = 42696828529.40 FLOPS/sec
+CPU, 8 threads, speed = 45048124727.44 FLOPS/sec
+CPU, 8 threads, speed = 45092077736.98 FLOPS/sec
+CPU, 8 threads, speed = 45150488364.86 FLOPS/sec
+CPU, 8 threads, speed = 45163054020.12 FLOPS/sec
+CPU, 8 threads, speed = 45161808748.01 FLOPS/sec
+CPU, 8 threads, speed = 45163718896.91 FLOPS/sec
+CPU, 8 threads, speed = 45166325824.91 FLOPS/sec
+CPU, 8 threads, speed = 41697514295.56 FLOPS/sec
+CPU, 8 threads, speed = 45105674062.79 FLOPS/sec
+CPU, 8 threads, speed = 45169513651.92 FLOPS/sec
+CPU, 8 threads, speed = 45174042828.89 FLOPS/sec
+CPU, 8 threads, speed = 45095391875.00 FLOPS/sec
+CPU, 8 threads, speed = 45138361913.98 FLOPS/sec
+CPU, 8 threads, speed = 45164922057.05 FLOPS/sec
+CPU, 8 threads, speed = 45165312570.18 FLOPS/sec
+CPU, 8 threads, speed = 45151110680.23 FLOPS/sec
+CPU, 8 threads, speed = 45166769138.15 FLOPS/sec
+CPU, 8 threads, speed = 45173155925.53 FLOPS/sec
+CPU, 8 threads, speed = 45176471433.01 FLOPS/sec
+CPU, 8 threads, speed = 45151638079.56 FLOPS/sec
+CPU, 8 threads, speed = 45141503621.16 FLOPS/sec
+CPU, 8 threads, speed = 45120468850.24 FLOPS/sec
+CPU, 8 threads, speed = 45170527095.16 FLOPS/sec
+CPU, 8 threads, speed = 45140133023.98 FLOPS/sec
+CPU, 8 threads, speed = 45145531549.91 FLOPS/sec
+CPU, 8 threads, speed = 45166156945.97 FLOPS/sec
+CPU, 8 threads, speed = 45169819791.44 FLOPS/sec
+CPU, 8 threads, speed = 45137750491.61 FLOPS/sec
+CPU, 8 threads, speed = 45159286754.72 FLOPS/sec
+CPU, 8 threads, speed = 45170368741.66 FLOPS/sec
+CPU, 8 threads, speed = 45170579879.91 FLOPS/sec
+CPU, 8 threads, speed = 45072402844.36 FLOPS/sec
+CPU, 8 threads, speed = 45158189406.26 FLOPS/sec
+CPU, 8 threads, speed = 45173557139.40 FLOPS/sec
+CPU, 8 threads, speed = 45167529123.96 FLOPS/sec
+CPU, 8 threads, speed = 45140586366.14 FLOPS/sec
+CPU, 8 threads, speed = 42121808385.16 FLOPS/sec
+CPU, 8 threads, speed = 45149159409.81 FLOPS/sec
+CPU, 8 threads, speed = 45159561100.17 FLOPS/sec
+CPU, 8 threads, speed = 45162874612.28 FLOPS/sec
+CPU, 8 threads, speed = 45171371665.93 FLOPS/sec
+CPU, 8 threads, speed = 45124303388.92 FLOPS/sec
+CPU, 8 threads, speed = 45159065170.44 FLOPS/sec
+CPU, 8 threads, speed = 45115750312.56 FLOPS/sec
+CPU, 8 threads, speed = 45169957027.74 FLOPS/sec
+CPU, 8 threads, speed = 45165586988.85 FLOPS/sec
+CPU, 8 threads, speed = 45166642476.34 FLOPS/sec
+CPU, 8 threads, speed = 45131299940.78 FLOPS/sec
+CPU, 8 threads, speed = 45167835236.58 FLOPS/sec
+CPU, 8 threads, speed = 45169207516.55 FLOPS/sec
+CPU, 8 threads, speed = 45117688163.96 FLOPS/sec
+CPU, 8 threads, speed = 45133808269.24 FLOPS/sec
+CPU, 8 threads, speed = 45168331358.94 FLOPS/sec
+CPU, 8 threads, speed = 45169028059.81 FLOPS/sec
+CPU, 8 threads, speed = 45164426009.58 FLOPS/sec
+CPU, 8 threads, speed = 45157165965.85 FLOPS/sec
+CPU, 8 threads, speed = 45165439224.53 FLOPS/sec
+CPU, 8 threads, speed = 45159993728.61 FLOPS/sec
+CPU, 8 threads, speed = 45155794417.44 FLOPS/sec
+CPU, 8 threads, speed = 45157651302.94 FLOPS/sec
+CPU, 8 threads, speed = 45118562357.93 FLOPS/sec
+CPU, 8 threads, speed = 45166558035.53 FLOPS/sec
+CPU, 8 threads, speed = 45151321638.48 FLOPS/sec
+CPU, 8 threads, speed = 45146902474.94 FLOPS/sec
+CPU, 8 threads, speed = 45166589700.79 FLOPS/sec
+CPU, 8 threads, speed = 45162652992.79 FLOPS/sec
+CPU, 8 threads, speed = 45117245813.65 FLOPS/sec
+CPU, 8 threads, speed = 45143812738.47 FLOPS/sec
+CPU, 8 threads, speed = 45167708568.78 FLOPS/sec
+CPU, 8 threads, speed = 45157123763.12 FLOPS/sec
+CPU, 8 threads, speed = 45109200764.60 FLOPS/sec
+CPU, 8 threads, speed = 45162568566.89 FLOPS/sec
+CPU, 8 threads, speed = 45172839182.77 FLOPS/sec
+CPU, 8 threads, speed = 45165576434.22 FLOPS/sec
+CPU, 8 threads, speed = 45173821099.79 FLOPS/sec
+CPU, 8 threads, speed = 45170579879.91 FLOPS/sec
+CPU, 8 threads, speed = 45175014239.21 FLOPS/sec
+CPU, 8 threads, speed = 45170052037.98 FLOPS/sec
+CPU, 8 threads, speed = 45140227908.80 FLOPS/sec
+CPU, 8 threads, speed = 45170674892.77 FLOPS/sec
+CPU, 8 threads, speed = 45127622265.79 FLOPS/sec
+CPU, 8 threads, speed = 45174169532.22 FLOPS/sec
+CPU, 8 threads, speed = 45161249453.22 FLOPS/sec
+CPU, 8 threads, speed = 45161502717.07 FLOPS/sec
+CPU, 8 threads, speed = 45152524138.18 FLOPS/sec
+CPU, 8 threads, speed = 45164964274.36 FLOPS/sec
+CPU, 8 threads, speed = 45140270079.95 FLOPS/sec
+CPU, 8 threads, speed = 45167043574.52 FLOPS/sec
+CPU, 8 threads, speed = 45167740235.67 FLOPS/sec
+CPU, 8 threads, speed = 45161101717.29 FLOPS/sec
+CPU, 8 threads, speed = 45088374895.52 FLOPS/sec
+CPU, 8 threads, speed = 45162568566.89 FLOPS/sec
+CPU, 8 threads, speed = 45168806379.93 FLOPS/sec
+CPU, 8 threads, speed = 45169291967.27 FLOPS/sec
+CPU, 8 threads, speed = 45147693431.10 FLOPS/sec
+CPU, 8 threads, speed = 45124619451.40 FLOPS/sec
+CPU, 8 threads, speed = 45152872242.16 FLOPS/sec
+CPU, 8 threads, speed = 45157925628.52 FLOPS/sec
+CPU, 8 threads, speed = 45160225874.11 FLOPS/sec
+CPU, 8 threads, speed = 45123734487.61 FLOPS/sec
+CPU, 8 threads, speed = 45164953720.03 FLOPS/sec
+CPU, 8 threads, speed = 45138541127.12 FLOPS/sec
+CPU, 8 threads, speed = 45108179543.47 FLOPS/sec
+CPU, 8 threads, speed = 45167170238.59 FLOPS/sec
+CPU, 8 threads, speed = 45166336379.89 FLOPS/sec
+CPU, 8 threads, speed = 45127843541.61 FLOPS/sec
+CPU, 8 threads, speed = 45127095427.34 FLOPS/sec
+CPU, 8 threads, speed = 45168056906.93 FLOPS/sec
+CPU, 8 threads, speed = 45160837905.53 FLOPS/sec
+CPU, 8 threads, speed = 45074389533.85 FLOPS/sec
+CPU, 8 threads, speed = 45118836208.80 FLOPS/sec
+CPU, 8 threads, speed = 45157218719.38 FLOPS/sec
+CPU, 8 threads, speed = 45163360072.08 FLOPS/sec
+CPU, 8 threads, speed = 45128728666.58 FLOPS/sec
+CPU, 8 threads, speed = 45141862098.77 FLOPS/sec
+CPU, 8 threads, speed = 45162040912.18 FLOPS/sec
+CPU, 8 threads, speed = 45164784851.34 FLOPS/sec
+CPU, 8 threads, speed = 45150530555.19 FLOPS/sec
+CPU, 8 threads, speed = 45137307747.82 FLOPS/sec
+CPU, 8 threads, speed = 45120163379.31 FLOPS/sec
+CPU, 8 threads, speed = 45161819300.87 FLOPS/sec
+CPU, 8 threads, speed = 45144825028.75 FLOPS/sec
+CPU, 8 threads, speed = 45160046488.74 FLOPS/sec
+CPU, 8 threads, speed = 45161238900.63 FLOPS/sec
+CPU, 8 threads, speed = 45170136491.86 FLOPS/sec
+CPU, 8 threads, speed = 45156997155.40 FLOPS/sec
+CPU, 8 threads, speed = 45162969592.72 FLOPS/sec
+CPU, 8 threads, speed = 45169967584.41 FLOPS/sec
+CPU, 8 threads, speed = 45174517970.02 FLOPS/sec
+CPU, 8 threads, speed = 45083694616.79 FLOPS/sec
+CPU, 8 threads, speed = 45166463039.99 FLOPS/sec
+CPU, 8 threads, speed = 45168595258.26 FLOPS/sec
+CPU, 8 threads, speed = 45170537652.10 FLOPS/sec
+CPU, 8 threads, speed = 45132216818.43 FLOPS/sec
+CPU, 8 threads, speed = 45162346950.41 FLOPS/sec
+CPU, 8 threads, speed = 45171952326.66 FLOPS/sec
+CPU, 8 threads, speed = 45160795695.93 FLOPS/sec
+CPU, 8 threads, speed = 45168943610.08 FLOPS/sec
+CPU, 8 threads, speed = 45161682114.02 FLOPS/sec
+CPU, 8 threads, speed = 45127801393.67 FLOPS/sec
+CPU, 8 threads, speed = 45159508341.17 FLOPS/sec
+CPU, 8 threads, speed = 45155309120.26 FLOPS/sec
+CPU, 8 threads, speed = 45171244978.31 FLOPS/sec
+CPU, 8 threads, speed = 45161639902.84 FLOPS/sec
+CPU, 8 threads, speed = 45165977513.47 FLOPS/sec
+CPU, 8 threads, speed = 45130762478.10 FLOPS/sec
+CPU, 8 threads, speed = 45166821914.12 FLOPS/sec
+CPU, 8 threads, speed = 45164732080.14 FLOPS/sec
+CPU, 8 threads, speed = 45108147960.05 FLOPS/sec
+CPU, 8 threads, speed = 45159202341.40 FLOPS/sec
+CPU, 8 threads, speed = 45163634467.03 FLOPS/sec
+CPU, 8 threads, speed = 45160795695.93 FLOPS/sec
+CPU, 8 threads, speed = 45163370625.67 FLOPS/sec
+CPU, 8 threads, speed = 45154285810.41 FLOPS/sec
+CPU, 8 threads, speed = 45138678173.43 FLOPS/sec
+CPU, 8 threads, speed = 45162747972.31 FLOPS/sec
+CPU, 8 threads, speed = 45149254332.57 FLOPS/sec
+CPU, 8 threads, speed = 45148632068.38 FLOPS/sec
+CPU, 8 threads, speed = 45127358845.03 FLOPS/sec
+CPU, 8 threads, speed = 45163233429.39 FLOPS/sec
+CPU, 8 threads, speed = 45146417368.87 FLOPS/sec
+CPU, 8 threads, speed = 45145320645.75 FLOPS/sec
+CPU, 8 threads, speed = 45161101717.29 FLOPS/sec
+CPU, 8 threads, speed = 45167560790.59 FLOPS/sec
+CPU, 8 threads, speed = 41617118062.15 FLOPS/sec
+CPU, 8 threads, speed = 45120289780.57 FLOPS/sec
+CPU, 8 threads, speed = 45158052241.45 FLOPS/sec
+CPU, 8 threads, speed = 45155530667.68 FLOPS/sec
+CPU, 8 threads, speed = 45090794296.92 FLOPS/sec
+CPU, 8 threads, speed = 45127622265.79 FLOPS/sec
+CPU, 8 threads, speed = 45168985834.91 FLOPS/sec
+CPU, 8 threads, speed = 45170220946.05 FLOPS/sec
+CPU, 8 threads, speed = 45121227278.71 FLOPS/sec
+CPU, 8 threads, speed = 45159022964.16 FLOPS/sec
+CPU, 8 threads, speed = 45169207516.55 FLOPS/sec
+CPU, 8 threads, speed = 45166769138.15 FLOPS/sec
+CPU, 8 threads, speed = 45126832012.73 FLOPS/sec
+CPU, 8 threads, speed = 45163370625.67 FLOPS/sec
+CPU, 8 threads, speed = 45123112926.66 FLOPS/sec
+CPU, 8 threads, speed = 45173588814.49 FLOPS/sec
+CPU, 8 threads, speed = 45127264014.31 FLOPS/sec
+CPU, 8 threads, speed = 45166990798.04 FLOPS/sec
+CPU, 8 threads, speed = 45166684696.87 FLOPS/sec
+CPU, 8 threads, speed = 45169735338.74 FLOPS/sec
+CPU, 8 threads, speed = 45142083514.25 FLOPS/sec
+CPU, 8 threads, speed = 45170664335.76 FLOPS/sec
+CPU, 8 threads, speed = 45173462114.42 FLOPS/sec
+CPU, 8 threads, speed = 45163191215.32 FLOPS/sec
+CPU, 8 threads, speed = 45108369044.93 FLOPS/sec
+CPU, 8 threads, speed = 45162431375.48 FLOPS/sec
+CPU, 8 threads, speed = 45163761111.97 FLOPS/sec
+CPU, 8 threads, speed = 45161903723.97 FLOPS/sec
+CPU, 8 threads, speed = 45155309120.26 FLOPS/sec
+CPU, 8 threads, speed = 45171118291.39 FLOPS/sec
+CPU, 8 threads, speed = 45172754718.78 FLOPS/sec
+CPU, 8 threads, speed = 45154602293.04 FLOPS/sec
+CPU, 8 threads, speed = 45136158762.79 FLOPS/sec
+CPU, 8 threads, speed = 45119362854.42 FLOPS/sec
+CPU, 8 threads, speed = 45164605429.75 FLOPS/sec
+CPU, 8 threads, speed = 45141419274.31 FLOPS/sec
+CPU, 8 threads, speed = 45152830047.45 FLOPS/sec
+CPU, 8 threads, speed = 45165534215.77 FLOPS/sec
+CPU, 8 threads, speed = 45154644491.06 FLOPS/sec
+CPU, 8 threads, speed = 45139964340.85 FLOPS/sec
+CPU, 8 threads, speed = 45153188704.97 FLOPS/sec
+CPU, 8 threads, speed = 45168458030.23 FLOPS/sec
+CPU, 8 threads, speed = 45167349680.56 FLOPS/sec
+CPU, 8 threads, speed = 45112212056.90 FLOPS/sec
+CPU, 8 threads, speed = 45168415806.39 FLOPS/sec
+CPU, 8 threads, speed = 45163011806.38 FLOPS/sec
+CPU, 8 threads, speed = 45168141353.35 FLOPS/sec
+CPU, 8 threads, speed = 45151416570.34 FLOPS/sec
+CPU, 8 threads, speed = 45153315291.34 FLOPS/sec
+CPU, 8 threads, speed = 45099537863.60 FLOPS/sec
+CPU, 8 threads, speed = 45162790185.55 FLOPS/sec
+CPU, 8 threads, speed = 45128602218.03 FLOPS/sec
+CPU, 8 threads, speed = 45156459080.50 FLOPS/sec
+CPU, 8 threads, speed = 45115339593.70 FLOPS/sec
+CPU, 8 threads, speed = 45167476346.34 FLOPS/sec
+CPU, 8 threads, speed = 45138330288.28 FLOPS/sec
+CPU, 8 threads, speed = 45155530667.68 FLOPS/sec
+CPU, 8 threads, speed = 45167391902.41 FLOPS/sec
+CPU, 8 threads, speed = 45166188610.67 FLOPS/sec
+CPU, 8 threads, speed = 45139205282.36 FLOPS/sec
+CPU, 8 threads, speed = 45165407560.88 FLOPS/sec
+CPU, 8 threads, speed = 45175362690.04 FLOPS/sec
+CPU, 8 threads, speed = 45164383793.28 FLOPS/sec
+CPU, 8 threads, speed = 45122765281.39 FLOPS/sec
+CPU, 8 threads, speed = 45158854139.82 FLOPS/sec
+CPU, 8 threads, speed = 45167666346.34 FLOPS/sec
+CPU, 8 threads, speed = 45166821914.12 FLOPS/sec
+CPU, 8 threads, speed = 45116708685.65 FLOPS/sec
+CPU, 8 threads, speed = 45153884938.78 FLOPS/sec
+CPU, 8 threads, speed = 45163887757.62 FLOPS/sec
+CPU, 8 threads, speed = 45151722464.60 FLOPS/sec
+CPU, 8 threads, speed = 45108411156.58 FLOPS/sec
+CPU, 8 threads, speed = 45167402457.88 FLOPS/sec
+CPU, 8 threads, speed = 45126568601.20 FLOPS/sec
+CPU, 8 threads, speed = 45155889368.10 FLOPS/sec
+CPU, 8 threads, speed = 45129792969.95 FLOPS/sec
+CPU, 8 threads, speed = 45171561698.71 FLOPS/sec
+CPU, 8 threads, speed = 45168415806.39 FLOPS/sec
+CPU, 8 threads, speed = 45160268082.65 FLOPS/sec
+CPU, 8 threads, speed = 45119141661.76 FLOPS/sec
+CPU, 8 threads, speed = 45170094264.88 FLOPS/sec
+CPU, 8 threads, speed = 45170759348.98 FLOPS/sec
+CPU, 8 threads, speed = 45106379359.03 FLOPS/sec
+CPU, 8 threads, speed = 45135853079.37 FLOPS/sec
+CPU, 8 threads, speed = 45164605429.75 FLOPS/sec
+CPU, 8 threads, speed = 45166156945.97 FLOPS/sec
+CPU, 8 threads, speed = 45163191215.32 FLOPS/sec
+CPU, 8 threads, speed = 45163761111.97 FLOPS/sec
+CPU, 8 threads, speed = 45166948576.94 FLOPS/sec
+CPU, 8 threads, speed = 45166505260.18 FLOPS/sec
+CPU, 8 threads, speed = 45160669067.62 FLOPS/sec
+CPU, 8 threads, speed = 45140755053.92 FLOPS/sec
+CPU, 8 threads, speed = 45128022671.24 FLOPS/sec
+CPU, 8 threads, speed = 45164816514.13 FLOPS/sec
+CPU, 8 threads, speed = 45151279446.67 FLOPS/sec
+CPU, 8 threads, speed = 45140881570.59 FLOPS/sec
+CPU, 8 threads, speed = 45126336801.59 FLOPS/sec
+CPU, 8 threads, speed = 45150699317.30 FLOPS/sec
+CPU, 8 threads, speed = 45140006511.51 FLOPS/sec
+CPU, 8 threads, speed = 45161766536.60 FLOPS/sec
+CPU, 8 threads, speed = 45161196690.28 FLOPS/sec
+CPU, 8 threads, speed = 45156543483.55 FLOPS/sec
+CPU, 8 threads, speed = 45068440499.99 FLOPS/sec
+CPU, 8 threads, speed = 45133291825.88 FLOPS/sec
+CPU, 8 threads, speed = 45150572745.60 FLOPS/sec
+CPU, 8 threads, speed = 45161861512.38 FLOPS/sec
+CPU, 8 threads, speed = 45139563723.47 FLOPS/sec
+CPU, 8 threads, speed = 45131036477.08 FLOPS/sec
+CPU, 8 threads, speed = 45152650720.82 FLOPS/sec
+CPU, 8 threads, speed = 45157081560.47 FLOPS/sec
+CPU, 8 threads, speed = 45135094159.14 FLOPS/sec
+CPU, 8 threads, speed = 45161682114.02 FLOPS/sec
+CPU, 8 threads, speed = 45101390125.15 FLOPS/sec
+CPU, 8 threads, speed = 45160130905.21 FLOPS/sec
+CPU, 8 threads, speed = 45160795695.93 FLOPS/sec
+CPU, 8 threads, speed = 45170009811.16 FLOPS/sec
+CPU, 8 threads, speed = 45163455054.57 FLOPS/sec
+CPU, 8 threads, speed = 45167486901.85 FLOPS/sec
+CPU, 8 threads, speed = 45125241053.86 FLOPS/sec
+CPU, 8 threads, speed = 45167486901.85 FLOPS/sec
+CPU, 8 threads, speed = 45165882520.37 FLOPS/sec
+CPU, 8 threads, speed = 45116319012.56 FLOPS/sec
+CPU, 8 threads, speed = 45098432893.65 FLOPS/sec
+CPU, 8 threads, speed = 45166853579.76 FLOPS/sec
+CPU, 8 threads, speed = 45164426009.58 FLOPS/sec
+CPU, 8 threads, speed = 45164341577.05 FLOPS/sec
+CPU, 8 threads, speed = 45160088696.94 FLOPS/sec
+CPU, 8 threads, speed = 45167043574.52 FLOPS/sec
+CPU, 8 threads, speed = 45170358184.80 FLOPS/sec
+CPU, 8 threads, speed = 45163982742.33 FLOPS/sec
+CPU, 8 threads, speed = 45164383793.28 FLOPS/sec
+CPU, 8 threads, speed = 45123123461.45 FLOPS/sec
+CPU, 8 threads, speed = 45167919682.17 FLOPS/sec
+CPU, 8 threads, speed = 45153146509.67 FLOPS/sec
+CPU, 8 threads, speed = 45136200926.34 FLOPS/sec
+CPU, 8 threads, speed = 45162346950.41 FLOPS/sec
+CPU, 8 threads, speed = 45165703090.06 FLOPS/sec
+CPU, 8 threads, speed = 36966340515.00 FLOPS/sec
+CPU, 8 threads, speed = 30637859380.55 FLOPS/sec
+CPU, 8 threads, speed = 30627234100.81 FLOPS/sec
+CPU, 8 threads, speed = 30631165833.19 FLOPS/sec
+CPU, 8 threads, speed = 41479032602.15 FLOPS/sec
+CPU, 8 threads, speed = 45114023237.49 FLOPS/sec
+CPU, 8 threads, speed = 45162790185.55 FLOPS/sec
+CPU, 8 threads, speed = 45158579802.96 FLOPS/sec
+CPU, 8 threads, speed = 45114286502.59 FLOPS/sec
+CPU, 8 threads, speed = 45143981450.36 FLOPS/sec
+CPU, 8 threads, speed = 45168764155.44 FLOPS/sec
+CPU, 8 threads, speed = 45169513651.92 FLOPS/sec
+CPU, 8 threads, speed = 45138857389.08 FLOPS/sec
+CPU, 8 threads, speed = 45141102976.45 FLOPS/sec
+CPU, 8 threads, speed = 45116487519.02 FLOPS/sec
+CPU, 8 threads, speed = 45160046488.74 FLOPS/sec
+CPU, 8 threads, speed = 45145837364.43 FLOPS/sec
+CPU, 8 threads, speed = 45151511502.60 FLOPS/sec
+CPU, 8 threads, speed = 45162389162.91 FLOPS/sec
+CPU, 8 threads, speed = 45154074824.45 FLOPS/sec
+CPU, 8 threads, speed = 45137349913.52 FLOPS/sec
+CPU, 8 threads, speed = 45160173113.56 FLOPS/sec
+CPU, 8 threads, speed = 45163887757.62 FLOPS/sec
+CPU, 8 threads, speed = 45163539483.78 FLOPS/sec
+CPU, 8 threads, speed = 45064909660.81 FLOPS/sec
+CPU, 8 threads, speed = 45165185916.53 FLOPS/sec
+CPU, 8 threads, speed = 45167212460.10 FLOPS/sec
+CPU, 8 threads, speed = 37736960888.92 FLOPS/sec
+CPU, 8 threads, speed = 45156596235.62 FLOPS/sec
+CPU, 8 threads, speed = 45172796950.73 FLOPS/sec
+CPU, 8 threads, speed = 45137792658.14 FLOPS/sec
+CPU, 8 threads, speed = 45152967180.53 FLOPS/sec
+CPU, 8 threads, speed = 30164019746.17 FLOPS/sec
+CPU, 8 threads, speed = 29977227575.07 FLOPS/sec
+CPU, 8 threads, speed = 43349052598.15 FLOPS/sec
+CPU, 8 threads, speed = 37758972221.38 FLOPS/sec
+CPU, 8 threads, speed = 29979306066.27 FLOPS/sec
+CPU, 8 threads, speed = 29980708164.38 FLOPS/sec
+CPU, 8 threads, speed = 29980268686.68 FLOPS/sec
+CPU, 8 threads, speed = 40723298164.33 FLOPS/sec
+CPU, 8 threads, speed = 41811014594.54 FLOPS/sec
+CPU, 8 threads, speed = 45153547368.19 FLOPS/sec
+CPU, 8 threads, speed = 45163497269.14 FLOPS/sec
+CPU, 8 threads, speed = 45114370748.07 FLOPS/sec
+CPU, 8 threads, speed = 45139774573.83 FLOPS/sec
+CPU, 8 threads, speed = 45166505260.18 FLOPS/sec
+CPU, 8 threads, speed = 45161017297.19 FLOPS/sec
+CPU, 8 threads, speed = 45163771665.75 FLOPS/sec
+CPU, 8 threads, speed = 45162040912.18 FLOPS/sec
+CPU, 8 threads, speed = 45172269056.99 FLOPS/sec
+CPU, 8 threads, speed = 45165618652.75 FLOPS/sec
+CPU, 8 threads, speed = 45165840301.35 FLOPS/sec
+CPU, 8 threads, speed = 45154117021.49 FLOPS/sec
+CPU, 8 threads, speed = 45117951471.83 FLOPS/sec
+CPU, 8 threads, speed = 45155794417.44 FLOPS/sec
+CPU, 8 threads, speed = 45146860291.39 FLOPS/sec
+CPU, 8 threads, speed = 37532221994.37 FLOPS/sec
+CPU, 8 threads, speed = 30013097522.00 FLOPS/sec
+CPU, 8 threads, speed = 31841603471.31 FLOPS/sec
+CPU, 8 threads, speed = 45146417368.87 FLOPS/sec
+CPU, 8 threads, speed = 45163233429.39 FLOPS/sec
+CPU, 8 threads, speed = 45168764155.44 FLOPS/sec
+CPU, 8 threads, speed = 45167085795.80 FLOPS/sec
+CPU, 8 threads, speed = 45108937558.86 FLOPS/sec
+CPU, 8 threads, speed = 34956390226.72 FLOPS/sec
+CPU, 8 threads, speed = 32487180350.23 FLOPS/sec
+CPU, 8 threads, speed = 34236329334.47 FLOPS/sec
+CPU, 8 threads, speed = 45091067810.81 FLOPS/sec
+CPU, 8 threads, speed = 34190034233.64 FLOPS/sec
+CPU, 8 threads, speed = 29980910467.97 FLOPS/sec
+CPU, 8 threads, speed = 35437327566.70 FLOPS/sec
+CPU, 8 threads, speed = 45131205093.50 FLOPS/sec
+CPU, 8 threads, speed = 45162040912.18 FLOPS/sec
+CPU, 8 threads, speed = 45119225925.37 FLOPS/sec
+CPU, 8 threads, speed = 45162916825.76 FLOPS/sec
+CPU, 8 threads, speed = 45150003181.72 FLOPS/sec
+CPU, 8 threads, speed = 45158769728.12 FLOPS/sec
+CPU, 8 threads, speed = 45157208168.66 FLOPS/sec
+CPU, 8 threads, speed = 45161850959.50 FLOPS/sec
+CPU, 8 threads, speed = 45146586100.23 FLOPS/sec
+CPU, 8 threads, speed = 45166241385.28 FLOPS/sec
+CPU, 8 threads, speed = 45164827068.40 FLOPS/sec
+CPU, 8 threads, speed = 45117466987.72 FLOPS/sec
+CPU, 8 threads, speed = 45120247646.74 FLOPS/sec
+CPU, 8 threads, speed = 45172881414.88 FLOPS/sec
+CPU, 8 threads, speed = 45160363052.13 FLOPS/sec
+CPU, 8 threads, speed = 45149507461.90 FLOPS/sec
+CPU, 8 threads, speed = 45152292071.85 FLOPS/sec
+CPU, 8 threads, speed = 45128865653.30 FLOPS/sec
+CPU, 8 threads, speed = 43011589701.77 FLOPS/sec
+CPU, 8 threads, speed = 41675709660.69 FLOPS/sec
+CPU, 8 threads, speed = 42339086875.14 FLOPS/sec
+CPU, 8 threads, speed = 29983868597.75 FLOPS/sec
+CPU, 8 threads, speed = 29985215298.28 FLOPS/sec
+CPU, 8 threads, speed = 43254636956.91 FLOPS/sec
+CPU, 8 threads, speed = 45156110921.22 FLOPS/sec
+CPU, 8 threads, speed = 45157440285.53 FLOPS/sec
+CPU, 8 threads, speed = 45159814345.08 FLOPS/sec
+CPU, 8 threads, speed = 45127400992.14 FLOPS/sec
+CPU, 8 threads, speed = 45142842669.54 FLOPS/sec
+CPU, 8 threads, speed = 45146111546.49 FLOPS/sec
+CPU, 8 threads, speed = 45159772137.39 FLOPS/sec
+CPU, 8 threads, speed = 45102442614.27 FLOPS/sec
+CPU, 8 threads, speed = 45145974455.04 FLOPS/sec
+CPU, 8 threads, speed = 45166325824.91 FLOPS/sec
+CPU, 8 threads, speed = 45164816514.13 FLOPS/sec
+CPU, 8 threads, speed = 45157208168.66 FLOPS/sec
+CPU, 8 threads, speed = 45167486901.85 FLOPS/sec
+CPU, 8 threads, speed = 45166600255.89 FLOPS/sec
+CPU, 8 threads, speed = 45167296903.36 FLOPS/sec
+CPU, 8 threads, speed = 45154560095.10 FLOPS/sec
+CPU, 8 threads, speed = 45157704057.60 FLOPS/sec
+CPU, 8 threads, speed = 45119099530.07 FLOPS/sec
+CPU, 8 threads, speed = 45159075722.02 FLOPS/sec
+CPU, 8 threads, speed = 45150794246.54 FLOPS/sec
+CPU, 8 threads, speed = 45153357486.95 FLOPS/sec
+CPU, 8 threads, speed = 45163761111.97 FLOPS/sec
+CPU, 8 threads, speed = 45162874612.28 FLOPS/sec
+CPU, 8 threads, speed = 45153631760.36 FLOPS/sec
+CPU, 8 threads, speed = 45168363026.70 FLOPS/sec
+CPU, 8 threads, speed = 45169344749.13 FLOPS/sec
+CPU, 8 threads, speed = 45166420819.87 FLOPS/sec
+CPU, 8 threads, speed = 45105842489.74 FLOPS/sec
+CPU, 8 threads, speed = 45158052241.45 FLOPS/sec
+CPU, 8 threads, speed = 45158495392.29 FLOPS/sec
+CPU, 8 threads, speed = 45164077727.44 FLOPS/sec
+CPU, 8 threads, speed = 45153631760.36 FLOPS/sec
+CPU, 8 threads, speed = 45165798082.40 FLOPS/sec
+CPU, 8 threads, speed = 45170410969.15 FLOPS/sec
+CPU, 8 threads, speed = 45144951568.23 FLOPS/sec
+CPU, 8 threads, speed = 45149507461.90 FLOPS/sec
+CPU, 8 threads, speed = 45121975198.42 FLOPS/sec
+CPU, 8 threads, speed = 45164784851.34 FLOPS/sec
+CPU, 8 threads, speed = 45140048682.26 FLOPS/sec
+CPU, 8 threads, speed = 45163370625.67 FLOPS/sec
+CPU, 8 threads, speed = 45160616306.03 FLOPS/sec
+CPU, 8 threads, speed = 45163328411.34 FLOPS/sec
+CPU, 8 threads, speed = 45161724325.27 FLOPS/sec
+CPU, 8 threads, speed = 45162441928.64 FLOPS/sec
+CPU, 8 threads, speed = 45173324856.82 FLOPS/sec
+CPU, 8 threads, speed = 45173810541.31 FLOPS/sec
+CPU, 8 threads, speed = 45119668314.51 FLOPS/sec
+CPU, 8 threads, speed = 45165491997.39 FLOPS/sec
+CPU, 8 threads, speed = 45172712486.91 FLOPS/sec
+CPU, 8 threads, speed = 45171561698.71 FLOPS/sec
+CPU, 8 threads, speed = 45168099130.10 FLOPS/sec
+CPU, 8 threads, speed = 45157661853.86 FLOPS/sec
+CPU, 8 threads, speed = 45146997388.22 FLOPS/sec
+CPU, 8 threads, speed = 45165270352.22 FLOPS/sec
+CPU, 8 threads, speed = 45155572867.43 FLOPS/sec
+CPU, 8 threads, speed = 45170484867.45 FLOPS/sec
+CPU, 8 threads, speed = 45125767849.01 FLOPS/sec
+CPU, 8 threads, speed = 45170896590.99 FLOPS/sec
+CPU, 8 threads, speed = 45166283605.06 FLOPS/sec
+CPU, 8 threads, speed = 45164922057.05 FLOPS/sec
+CPU, 8 threads, speed = 45168764155.44 FLOPS/sec
+CPU, 8 threads, speed = 45172005114.74 FLOPS/sec
+CPU, 8 threads, speed = 45161281111.05 FLOPS/sec
+./cpu2 -i
+CPU, 8 threads, speed = 76511470145.39 IOPS/sec
+CPU, 8 threads, speed = 89917624695.79 IOPS/sec
+CPU, 8 threads, speed = 89949742863.48 IOPS/sec
+CPU, 8 threads, speed = 89835957581.21 IOPS/sec
+CPU, 8 threads, speed = 89937374129.76 IOPS/sec
+CPU, 8 threads, speed = 89928084120.56 IOPS/sec
+CPU, 8 threads, speed = 89949491687.84 IOPS/sec
+CPU, 8 threads, speed = 89817567441.53 IOPS/sec
+CPU, 8 threads, speed = 89933775069.62 IOPS/sec
+CPU, 8 threads, speed = 89906665829.35 IOPS/sec
+CPU, 8 threads, speed = 89951417403.59 IOPS/sec
+CPU, 8 threads, speed = 89809491519.44 IOPS/sec
+CPU, 8 threads, speed = 89944133608.37 IOPS/sec
+CPU, 8 threads, speed = 89856861762.11 IOPS/sec
+CPU, 8 threads, speed = 89926410449.08 IOPS/sec
+CPU, 8 threads, speed = 89827439985.61 IOPS/sec
+CPU, 8 threads, speed = 89947461402.93 IOPS/sec
+CPU, 8 threads, speed = 89952757080.56 IOPS/sec
+CPU, 8 threads, speed = 89931933801.40 IOPS/sec
+CPU, 8 threads, speed = 89859326632.25 IOPS/sec
+CPU, 8 threads, speed = 89918419526.65 IOPS/sec
+CPU, 8 threads, speed = 89945452139.02 IOPS/sec
+CPU, 8 threads, speed = 89819299675.99 IOPS/sec
+CPU, 8 threads, speed = 89941308315.71 IOPS/sec
+CPU, 8 threads, speed = 89932205802.19 IOPS/sec
+CPU, 8 threads, speed = 89951501132.23 IOPS/sec
+CPU, 8 threads, speed = 89920071983.13 IOPS/sec
+CPU, 8 threads, speed = 89883522958.67 IOPS/sec
+CPU, 8 threads, speed = 89939383032.77 IOPS/sec
+CPU, 8 threads, speed = 89948696307.57 IOPS/sec
+CPU, 8 threads, speed = 89908234205.58 IOPS/sec
+CPU, 8 threads, speed = 89917373699.50 IOPS/sec
+CPU, 8 threads, speed = 89860997807.57 IOPS/sec
+CPU, 8 threads, speed = 89945012624.51 IOPS/sec
+CPU, 8 threads, speed = 89910095416.38 IOPS/sec
+CPU, 8 threads, speed = 89935804736.72 IOPS/sec
+CPU, 8 threads, speed = 89927456486.46 IOPS/sec
+CPU, 8 threads, speed = 89939927126.12 IOPS/sec
+CPU, 8 threads, speed = 89922101031.76 IOPS/sec
+CPU, 8 threads, speed = 89926326767.15 IOPS/sec
+CPU, 8 threads, speed = 89949680069.44 IOPS/sec
+CPU, 8 threads, speed = 89941161823.89 IOPS/sec
+CPU, 8 threads, speed = 89718149092.72 IOPS/sec
+CPU, 8 threads, speed = 89926410449.08 IOPS/sec
+CPU, 8 threads, speed = 89949931246.13 IOPS/sec
+CPU, 8 threads, speed = 89952401224.97 IOPS/sec
+CPU, 8 threads, speed = 89843745914.23 IOPS/sec
+CPU, 8 threads, speed = 89879572927.52 IOPS/sec
+CPU, 8 threads, speed = 89930803969.60 IOPS/sec
+CPU, 8 threads, speed = 89937290427.42 IOPS/sec
+CPU, 8 threads, speed = 89826500643.81 IOPS/sec
+CPU, 8 threads, speed = 89926138483.35 IOPS/sec
+CPU, 8 threads, speed = 89831218425.50 IOPS/sec
+CPU, 8 threads, speed = 89932205802.19 IOPS/sec
+CPU, 8 threads, speed = 89899493819.32 IOPS/sec
+CPU, 8 threads, speed = 89933251974.39 IOPS/sec
+CPU, 8 threads, speed = 89935093296.59 IOPS/sec
+CPU, 8 threads, speed = 89920887775.18 IOPS/sec
+CPU, 8 threads, speed = 89882561543.46 IOPS/sec
+CPU, 8 threads, speed = 89935093296.59 IOPS/sec
+CPU, 8 threads, speed = 89938692462.24 IOPS/sec
+CPU, 8 threads, speed = 89833932418.25 IOPS/sec
+CPU, 8 threads, speed = 89914027216.09 IOPS/sec
+CPU, 8 threads, speed = 89928063199.29 IOPS/sec
+CPU, 8 threads, speed = 89952212831.98 IOPS/sec
+CPU, 8 threads, speed = 89901751938.12 IOPS/sec
+CPU, 8 threads, speed = 89877650286.67 IOPS/sec
+CPU, 8 threads, speed = 89944489398.55 IOPS/sec
+CPU, 8 threads, speed = 89941161823.89 IOPS/sec
+CPU, 8 threads, speed = 89923439835.63 IOPS/sec
+CPU, 8 threads, speed = 89938169309.81 IOPS/sec
+CPU, 8 threads, speed = 87603566229.98 IOPS/sec
+CPU, 8 threads, speed = 77454672032.92 IOPS/sec
+CPU, 8 threads, speed = 89879322143.62 IOPS/sec
+CPU, 8 threads, speed = 89874766479.61 IOPS/sec
+CPU, 8 threads, speed = 89921138791.10 IOPS/sec
+CPU, 8 threads, speed = 89932373188.11 IOPS/sec
+CPU, 8 threads, speed = 89845917700.93 IOPS/sec
+CPU, 8 threads, speed = 89909196170.08 IOPS/sec
+CPU, 8 threads, speed = 89929130196.88 IOPS/sec
+CPU, 8 threads, speed = 89936139535.98 IOPS/sec
+CPU, 8 threads, speed = 89793072869.88 IOPS/sec
+CPU, 8 threads, speed = 89940450299.00 IOPS/sec
+CPU, 8 threads, speed = 89939571372.03 IOPS/sec
+CPU, 8 threads, speed = 89942103565.32 IOPS/sec
+CPU, 8 threads, speed = 89812997167.69 IOPS/sec
+CPU, 8 threads, speed = 89926682416.46 IOPS/sec
+CPU, 8 threads, speed = 89947377681.80 IOPS/sec
+CPU, 8 threads, speed = 89934402791.93 IOPS/sec
+CPU, 8 threads, speed = 89812120729.97 IOPS/sec
+CPU, 8 threads, speed = 89932561498.01 IOPS/sec
+CPU, 8 threads, speed = 89849342654.83 IOPS/sec
+CPU, 8 threads, speed = 89930971350.29 IOPS/sec
+CPU, 8 threads, speed = 89894058072.63 IOPS/sec
+CPU, 8 threads, speed = 89931494418.99 IOPS/sec
+CPU, 8 threads, speed = 89925971120.64 IOPS/sec
+CPU, 8 threads, speed = 89911329295.22 IOPS/sec
+CPU, 8 threads, speed = 89919298040.25 IOPS/sec
+CPU, 8 threads, speed = 89952212831.98 IOPS/sec
+CPU, 8 threads, speed = 89950098698.03 IOPS/sec
+CPU, 8 threads, speed = 89847400423.31 IOPS/sec
+CPU, 8 threads, speed = 89907732319.23 IOPS/sec
+CPU, 8 threads, speed = 89956252988.09 IOPS/sec
+CPU, 8 threads, speed = 89951333675.10 IOPS/sec
+CPU, 8 threads, speed = 89889396398.16 IOPS/sec
+CPU, 8 threads, speed = 89822200796.61 IOPS/sec
+CPU, 8 threads, speed = 89815710059.53 IOPS/sec
+CPU, 8 threads, speed = 89849426193.56 IOPS/sec
+CPU, 8 threads, speed = 89871945543.07 IOPS/sec
+CPU, 8 threads, speed = 89884129078.82 IOPS/sec
+CPU, 8 threads, speed = 89853290029.24 IOPS/sec
+CPU, 8 threads, speed = 89935365316.49 IOPS/sec
+CPU, 8 threads, speed = 89939927126.12 IOPS/sec
+CPU, 8 threads, speed = 89945200987.35 IOPS/sec
+CPU, 8 threads, speed = 89945807939.63 IOPS/sec
+CPU, 8 threads, speed = 89945640503.70 IOPS/sec
+CPU, 8 threads, speed = 89935888436.30 IOPS/sec
+CPU, 8 threads, speed = 89920887775.18 IOPS/sec
+CPU, 8 threads, speed = 89950726648.24 IOPS/sec
+CPU, 8 threads, speed = 89951605793.25 IOPS/sec
+CPU, 8 threads, speed = 89765777379.18 IOPS/sec
+CPU, 8 threads, speed = 89919298040.25 IOPS/sec
+CPU, 8 threads, speed = 89950182424.22 IOPS/sec
+CPU, 8 threads, speed = 89955373752.24 IOPS/sec
+CPU, 8 threads, speed = 89927561091.53 IOPS/sec
+CPU, 8 threads, speed = 89936139535.98 IOPS/sec
+CPU, 8 threads, speed = 89945807939.63 IOPS/sec
+CPU, 8 threads, speed = 89917561946.59 IOPS/sec
+CPU, 8 threads, speed = 89839632336.84 IOPS/sec
+CPU, 8 threads, speed = 89949847520.41 IOPS/sec
+CPU, 8 threads, speed = 89858553734.69 IOPS/sec
+CPU, 8 threads, speed = 89929046509.87 IOPS/sec
+CPU, 8 threads, speed = 89851264084.77 IOPS/sec
+CPU, 8 threads, speed = 89940199175.26 IOPS/sec
+CPU, 8 threads, speed = 89937457832.26 IOPS/sec
+CPU, 8 threads, speed = 82406585255.81 IOPS/sec
+CPU, 8 threads, speed = 60726765592.90 IOPS/sec
+CPU, 8 threads, speed = 61913921764.42 IOPS/sec
+CPU, 8 threads, speed = 61861772699.17 IOPS/sec
+CPU, 8 threads, speed = 76393816162.53 IOPS/sec
+CPU, 8 threads, speed = 89834642258.79 IOPS/sec
+CPU, 8 threads, speed = 89936139535.98 IOPS/sec
+CPU, 8 threads, speed = 89924297527.81 IOPS/sec
+CPU, 8 threads, speed = 89927644775.77 IOPS/sec
+CPU, 8 threads, speed = 89893869923.94 IOPS/sec
+CPU, 8 threads, speed = 89937039321.32 IOPS/sec
+CPU, 8 threads, speed = 89942480267.42 IOPS/sec
+CPU, 8 threads, speed = 89926305846.69 IOPS/sec
+CPU, 8 threads, speed = 89868435291.56 IOPS/sec
+CPU, 8 threads, speed = 89859075961.31 IOPS/sec
+CPU, 8 threads, speed = 89947921871.88 IOPS/sec
+CPU, 8 threads, speed = 89923962816.72 IOPS/sec
+CPU, 8 threads, speed = 89929213884.03 IOPS/sec
+CPU, 8 threads, speed = 89949407962.94 IOPS/sec
+CPU, 8 threads, speed = 89944049893.44 IOPS/sec
+CPU, 8 threads, speed = 89890964171.94 IOPS/sec
+CPU, 8 threads, speed = 89943254609.41 IOPS/sec
+CPU, 8 threads, speed = 89949659138.11 IOPS/sec
+CPU, 8 threads, speed = 89945452139.02 IOPS/sec
+CPU, 8 threads, speed = 89830153750.05 IOPS/sec
+CPU, 8 threads, speed = 89945117270.43 IOPS/sec
+CPU, 8 threads, speed = 89942208204.48 IOPS/sec
+CPU, 8 threads, speed = 89945452139.02 IOPS/sec
+CPU, 8 threads, speed = 89924464884.29 IOPS/sec
+CPU, 8 threads, speed = 89925699157.57 IOPS/sec
+CPU, 8 threads, speed = 89893869923.94 IOPS/sec
+CPU, 8 threads, speed = 89938776167.19 IOPS/sec
+CPU, 8 threads, speed = 89912709606.60 IOPS/sec
+CPU, 8 threads, speed = 89939843419.02 IOPS/sec
+CPU, 8 threads, speed = 89848569929.01 IOPS/sec
+CPU, 8 threads, speed = 89944656830.19 IOPS/sec
+CPU, 8 threads, speed = 89821595511.37 IOPS/sec
+CPU, 8 threads, speed = 89927456486.46 IOPS/sec
+CPU, 8 threads, speed = 89945975376.19 IOPS/sec
+CPU, 8 threads, speed = 84189112971.98 IOPS/sec
+CPU, 8 threads, speed = 89841887449.37 IOPS/sec
+CPU, 8 threads, speed = 89935093296.59 IOPS/sec
+CPU, 8 threads, speed = 89949931246.13 IOPS/sec
+CPU, 8 threads, speed = 89852579893.98 IOPS/sec
+CPU, 8 threads, speed = 89935888436.30 IOPS/sec
+CPU, 8 threads, speed = 89950370808.71 IOPS/sec
+CPU, 8 threads, speed = 89956420463.54 IOPS/sec
+CPU, 8 threads, speed = 89924485803.90 IOPS/sec
+CPU, 8 threads, speed = 89868539759.37 IOPS/sec
+CPU, 8 threads, speed = 89928858214.69 IOPS/sec
+CPU, 8 threads, speed = 89951961642.54 IOPS/sec
+CPU, 8 threads, speed = 89948800962.07 IOPS/sec
+CPU, 8 threads, speed = 89942375627.63 IOPS/sec
+CPU, 8 threads, speed = 89860559118.03 IOPS/sec
+CPU, 8 threads, speed = 89954410799.36 IOPS/sec
+CPU, 8 threads, speed = 89926933464.73 IOPS/sec
+CPU, 8 threads, speed = 89890378863.33 IOPS/sec
+CPU, 8 threads, speed = 89947733497.65 IOPS/sec
+CPU, 8 threads, speed = 89945033553.67 IOPS/sec
+CPU, 8 threads, speed = 89918942449.35 IOPS/sec
+CPU, 8 threads, speed = 89925971120.64 IOPS/sec
+CPU, 8 threads, speed = 89947900941.37 IOPS/sec
+CPU, 8 threads, speed = 89948800962.07 IOPS/sec
+CPU, 8 threads, speed = 89830341632.12 IOPS/sec
+CPU, 8 threads, speed = 89946331180.93 IOPS/sec
+CPU, 8 threads, speed = 89929925231.15 IOPS/sec
+CPU, 8 threads, speed = 89947293960.84 IOPS/sec
+CPU, 8 threads, speed = 89902023756.36 IOPS/sec
+CPU, 8 threads, speed = 89941308315.71 IOPS/sec
+CPU, 8 threads, speed = 89938253013.79 IOPS/sec
+CPU, 8 threads, speed = 89949135858.09 IOPS/sec
+CPU, 8 threads, speed = 89899389279.53 IOPS/sec
+CPU, 8 threads, speed = 89938776167.19 IOPS/sec
+CPU, 8 threads, speed = 89825269092.11 IOPS/sec
+CPU, 8 threads, speed = 89945975376.19 IOPS/sec
+CPU, 8 threads, speed = 89918252192.67 IOPS/sec
+CPU, 8 threads, speed = 89929653244.16 IOPS/sec
+CPU, 8 threads, speed = 89939927126.12 IOPS/sec
+CPU, 8 threads, speed = 89941329243.15 IOPS/sec
+CPU, 8 threads, speed = 89899995613.69 IOPS/sec
+CPU, 8 threads, speed = 89937897272.94 IOPS/sec
+CPU, 8 threads, speed = 89945724221.59 IOPS/sec
+CPU, 8 threads, speed = 89859598194.01 IOPS/sec
+CPU, 8 threads, speed = 89904135631.03 IOPS/sec
+CPU, 8 threads, speed = 89942543051.41 IOPS/sec
+CPU, 8 threads, speed = 89951773251.39 IOPS/sec
+CPU, 8 threads, speed = 89925887439.52 IOPS/sec
+CPU, 8 threads, speed = 89934486488.90 IOPS/sec
+CPU, 8 threads, speed = 89905787562.55 IOPS/sec
+CPU, 8 threads, speed = 89950287082.17 IOPS/sec
+CPU, 8 threads, speed = 89918670528.78 IOPS/sec
+CPU, 8 threads, speed = 89914131789.93 IOPS/sec
+CPU, 8 threads, speed = 89856193346.06 IOPS/sec
+CPU, 8 threads, speed = 89945368421.64 IOPS/sec
+CPU, 8 threads, speed = 89921494399.38 IOPS/sec
+CPU, 8 threads, speed = 89928167805.77 IOPS/sec
+CPU, 8 threads, speed = 89942563979.42 IOPS/sec
+CPU, 8 threads, speed = 89948800962.07 IOPS/sec
+CPU, 8 threads, speed = 89915449441.10 IOPS/sec
+CPU, 8 threads, speed = 89860914247.32 IOPS/sec
+CPU, 8 threads, speed = 89949763794.85 IOPS/sec
+CPU, 8 threads, speed = 89936934694.19 IOPS/sec
+CPU, 8 threads, speed = 89793406607.29 IOPS/sec
+CPU, 8 threads, speed = 89907627760.28 IOPS/sec
+CPU, 8 threads, speed = 89937123023.19 IOPS/sec
+CPU, 8 threads, speed = 89944656830.19 IOPS/sec
+CPU, 8 threads, speed = 89898072099.01 IOPS/sec
+CPU, 8 threads, speed = 89940534007.23 IOPS/sec
+CPU, 8 threads, speed = 89948528860.89 IOPS/sec
+CPU, 8 threads, speed = 89944405682.96 IOPS/sec
+CPU, 8 threads, speed = 89862397464.72 IOPS/sec
+CPU, 8 threads, speed = 89933084585.21 IOPS/sec
+CPU, 8 threads, speed = 89846189181.65 IOPS/sec
+CPU, 8 threads, speed = 89928418862.34 IOPS/sec
+CPU, 8 threads, speed = 89896336824.87 IOPS/sec
+CPU, 8 threads, speed = 89906749474.70 IOPS/sec
+CPU, 8 threads, speed = 89919758220.90 IOPS/sec
+CPU, 8 threads, speed = 89946247461.92 IOPS/sec
+CPU, 8 threads, speed = 89902274666.97 IOPS/sec
+CPU, 8 threads, speed = 89939927126.12 IOPS/sec
+CPU, 8 threads, speed = 89941852432.35 IOPS/sec
+CPU, 8 threads, speed = 89851368512.66 IOPS/sec
+CPU, 8 threads, speed = 89883251252.28 IOPS/sec
+CPU, 8 threads, speed = 89943526678.68 IOPS/sec
+CPU, 8 threads, speed = 89936934694.19 IOPS/sec
+CPU, 8 threads, speed = 89927895829.41 IOPS/sec
+CPU, 8 threads, speed = 89922268380.06 IOPS/sec
+CPU, 8 threads, speed = 89944824262.46 IOPS/sec
+CPU, 8 threads, speed = 89939048209.37 IOPS/sec
+CPU, 8 threads, speed = 89936139535.98 IOPS/sec
+CPU, 8 threads, speed = 89933607678.49 IOPS/sec
+CPU, 8 threads, speed = 89859410189.54 IOPS/sec
+CPU, 8 threads, speed = 89959225769.94 IOPS/sec
+CPU, 8 threads, speed = 89929820620.57 IOPS/sec
+CPU, 8 threads, speed = 89923586269.72 IOPS/sec
+CPU, 8 threads, speed = 89903236503.95 IOPS/sec
+CPU, 8 threads, speed = 89879384839.46 IOPS/sec
+CPU, 8 threads, speed = 89912793263.20 IOPS/sec
+CPU, 8 threads, speed = 89927812144.71 IOPS/sec
+CPU, 8 threads, speed = 89903780160.03 IOPS/sec
+CPU, 8 threads, speed = 89946142813.36 IOPS/sec
+CPU, 8 threads, speed = 89811432112.33 IOPS/sec
+CPU, 8 threads, speed = 89919737303.49 IOPS/sec
+CPU, 8 threads, speed = 89945535856.56 IOPS/sec
+CPU, 8 threads, speed = 89938357643.98 IOPS/sec
+CPU, 8 threads, speed = 89915700426.66 IOPS/sec
+CPU, 8 threads, speed = 89936495262.91 IOPS/sec
+CPU, 8 threads, speed = 89880889565.99 IOPS/sec
+CPU, 8 threads, speed = 89935616413.24 IOPS/sec
+CPU, 8 threads, speed = 89903173774.82 IOPS/sec
+CPU, 8 threads, speed = 89918419526.65 IOPS/sec
+CPU, 8 threads, speed = 89840926924.64 IOPS/sec
+CPU, 8 threads, speed = 89934465564.64 IOPS/sec
+CPU, 8 threads, speed = 89917812943.94 IOPS/sec
+CPU, 8 threads, speed = 89935972136.04 IOPS/sec
+CPU, 8 threads, speed = 89943882464.06 IOPS/sec
+CPU, 8 threads, speed = 89931933801.40 IOPS/sec
+CPU, 8 threads, speed = 89909217082.58 IOPS/sec
+CPU, 8 threads, speed = 89933419364.21 IOPS/sec
+CPU, 8 threads, speed = 89940534007.23 IOPS/sec
+CPU, 8 threads, speed = 89836208123.18 IOPS/sec
+CPU, 8 threads, speed = 89914654662.76 IOPS/sec
+CPU, 8 threads, speed = 89938880798.61 IOPS/sec
+CPU, 8 threads, speed = 89956420463.54 IOPS/sec
+CPU, 8 threads, speed = 89928084120.56 IOPS/sec
+CPU, 8 threads, speed = 89921055118.97 IOPS/sec
+CPU, 8 threads, speed = 89944761475.29 IOPS/sec
+CPU, 8 threads, speed = 89934758505.13 IOPS/sec
+CPU, 8 threads, speed = 89915093880.63 IOPS/sec
+CPU, 8 threads, speed = 89854167270.66 IOPS/sec
+CPU, 8 threads, speed = 89848026940.43 IOPS/sec
+CPU, 8 threads, speed = 89951082490.58 IOPS/sec
+CPU, 8 threads, speed = 89895458759.87 IOPS/sec
+CPU, 8 threads, speed = 89931243345.26 IOPS/sec
+CPU, 8 threads, speed = 89931327036.35 IOPS/sec
+CPU, 8 threads, speed = 89943254609.41 IOPS/sec
+CPU, 8 threads, speed = 89927017147.80 IOPS/sec
+CPU, 8 threads, speed = 89938169309.81 IOPS/sec
+CPU, 8 threads, speed = 89949491687.84 IOPS/sec
+CPU, 8 threads, speed = 89948361414.83 IOPS/sec
+CPU, 8 threads, speed = 89838212509.26 IOPS/sec
+CPU, 8 threads, speed = 89938336717.92 IOPS/sec
+CPU, 8 threads, speed = 89955624960.73 IOPS/sec
+CPU, 8 threads, speed = 89939487665.60 IOPS/sec
+CPU, 8 threads, speed = 89902985587.97 IOPS/sec
+CPU, 8 threads, speed = 89942375627.63 IOPS/sec
+CPU, 8 threads, speed = 89941496663.03 IOPS/sec
+CPU, 8 threads, speed = 89941057187.17 IOPS/sec
+CPU, 8 threads, speed = 89912374981.77 IOPS/sec
+CPU, 8 threads, speed = 89939236547.23 IOPS/sec
+CPU, 8 threads, speed = 89860726237.35 IOPS/sec
+CPU, 8 threads, speed = 89945891657.83 IOPS/sec
+CPU, 8 threads, speed = 89944489398.55 IOPS/sec
+CPU, 8 threads, speed = 89947482333.23 IOPS/sec
+CPU, 8 threads, speed = 89943694106.74 IOPS/sec
+CPU, 8 threads, speed = 89949219582.48 IOPS/sec
+CPU, 8 threads, speed = 89921829092.09 IOPS/sec
+CPU, 8 threads, speed = 89940282883.02 IOPS/sec
+CPU, 8 threads, speed = 89925092476.64 IOPS/sec
+CPU, 8 threads, speed = 89846899215.91 IOPS/sec
+CPU, 8 threads, speed = 89922728591.11 IOPS/sec
+CPU, 8 threads, speed = 89933963385.40 IOPS/sec
+CPU, 8 threads, speed = 89947461402.93 IOPS/sec
+CPU, 8 threads, speed = 89949491687.84 IOPS/sec
+CPU, 8 threads, speed = 89726437697.51 IOPS/sec
+CPU, 8 threads, speed = 89845500041.49 IOPS/sec
+CPU, 8 threads, speed = 81284140785.08 IOPS/sec
+CPU, 8 threads, speed = 83270814347.59 IOPS/sec
+CPU, 8 threads, speed = 89834015928.32 IOPS/sec
+CPU, 8 threads, speed = 89842680941.82 IOPS/sec
+CPU, 8 threads, speed = 89936495262.91 IOPS/sec
+CPU, 8 threads, speed = 89919381709.11 IOPS/sec
+CPU, 8 threads, speed = 89902358304.15 IOPS/sec
+CPU, 8 threads, speed = 89948277692.03 IOPS/sec
+CPU, 8 threads, speed = 89943087182.98 IOPS/sec
+CPU, 8 threads, speed = 89927038068.59 IOPS/sec
+CPU, 8 threads, speed = 89908150557.47 IOPS/sec
+CPU, 8 threads, speed = 89942919757.18 IOPS/sec
+CPU, 8 threads, speed = 89947042798.88 IOPS/sec
+CPU, 8 threads, speed = 89808197837.43 IOPS/sec
+CPU, 8 threads, speed = 89899828348.28 IOPS/sec
+CPU, 8 threads, speed = 89943526678.68 IOPS/sec
+CPU, 8 threads, speed = 89932122109.46 IOPS/sec
+CPU, 8 threads, speed = 89921222463.38 IOPS/sec
+CPU, 8 threads, speed = 89925259836.08 IOPS/sec
+CPU, 8 threads, speed = 89942647691.58 IOPS/sec
+CPU, 8 threads, speed = 89939655078.62 IOPS/sec
+CPU, 8 threads, speed = 89935700112.47 IOPS/sec
+CPU, 8 threads, speed = 89944154537.12 IOPS/sec
+CPU, 8 threads, speed = 89850909031.74 IOPS/sec
+CPU, 8 threads, speed = 89940178248.34 IOPS/sec
+CPU, 8 threads, speed = 89910367285.08 IOPS/sec
+CPU, 8 threads, speed = 89935176994.85 IOPS/sec
+CPU, 8 threads, speed = 89950894103.10 IOPS/sec
+CPU, 8 threads, speed = 89924464884.29 IOPS/sec
+CPU, 8 threads, speed = 89915072965.40 IOPS/sec
+CPU, 8 threads, speed = 89942459339.44 IOPS/sec
+CPU, 8 threads, speed = 89944238252.25 IOPS/sec
+CPU, 8 threads, speed = 89918419526.65 IOPS/sec
+CPU, 8 threads, speed = 89861958761.52 IOPS/sec
+CPU, 8 threads, speed = 89943610392.63 IOPS/sec
+CPU, 8 threads, speed = 89945556785.97 IOPS/sec
+CPU, 8 threads, speed = 89925782838.34 IOPS/sec
+CPU, 8 threads, speed = 89900957401.90 IOPS/sec
+CPU, 8 threads, speed = 89938357643.98 IOPS/sec
+CPU, 8 threads, speed = 89953092006.04 IOPS/sec
+CPU, 8 threads, speed = 89928251491.14 IOPS/sec
+CPU, 8 threads, speed = 89921055118.97 IOPS/sec
+CPU, 8 threads, speed = 89856527552.84 IOPS/sec
+CPU, 8 threads, speed = 89937646163.46 IOPS/sec
+CPU, 8 threads, speed = 89944824262.46 IOPS/sec
+CPU, 8 threads, speed = 89924025574.86 IOPS/sec
+CPU, 8 threads, speed = 89940889768.93 IOPS/sec
+CPU, 8 threads, speed = 89927979514.27 IOPS/sec
+CPU, 8 threads, speed = 89938880798.61 IOPS/sec
+CPU, 8 threads, speed = 89932205802.19 IOPS/sec
+CPU, 8 threads, speed = 89942919757.18 IOPS/sec
+CPU, 8 threads, speed = 89953259469.72 IOPS/sec
+CPU, 8 threads, speed = 89849885659.31 IOPS/sec
+CPU, 8 threads, speed = 89931766417.12 IOPS/sec
+CPU, 8 threads, speed = 89944489398.55 IOPS/sec
+CPU, 8 threads, speed = 89936055835.93 IOPS/sec
+CPU, 8 threads, speed = 89917645612.22 IOPS/sec
+CPU, 8 threads, speed = 89901668302.07 IOPS/sec
+CPU, 8 threads, speed = 89884756108.28 IOPS/sec
+CPU, 8 threads, speed = 89938504126.66 IOPS/sec
+CPU, 8 threads, speed = 89910074503.47 IOPS/sec
+CPU, 8 threads, speed = 89932017493.78 IOPS/sec
+CPU, 8 threads, speed = 89825102104.65 IOPS/sec
+CPU, 8 threads, speed = 89944217323.45 IOPS/sec
+CPU, 8 threads, speed = 89919653633.98 IOPS/sec
+CPU, 8 threads, speed = 89898699323.02 IOPS/sec
+CPU, 8 threads, speed = 89945891657.83 IOPS/sec
+CPU, 8 threads, speed = 89933795993.56 IOPS/sec
+CPU, 8 threads, speed = 89917624695.79 IOPS/sec
+CPU, 8 threads, speed = 89934026157.49 IOPS/sec
+CPU, 8 threads, speed = 89940345663.94 IOPS/sec
+CPU, 8 threads, speed = 89936850992.66 IOPS/sec
+CPU, 8 threads, speed = 89812746755.17 IOPS/sec
+CPU, 8 threads, speed = 89937123023.19 IOPS/sec
+CPU, 8 threads, speed = 89939738785.37 IOPS/sec
+CPU, 8 threads, speed = 89935114221.14 IOPS/sec
+CPU, 8 threads, speed = 89923941897.36 IOPS/sec
+CPU, 8 threads, speed = 89943170896.12 IOPS/sec
+CPU, 8 threads, speed = 89944489398.55 IOPS/sec
+CPU, 8 threads, speed = 89932101186.31 IOPS/sec
+CPU, 8 threads, speed = 89933251974.39 IOPS/sec
+CPU, 8 threads, speed = 89481799474.05 IOPS/sec
+CPU, 8 threads, speed = 89944384754.08 IOPS/sec
+CPU, 8 threads, speed = 89923063293.01 IOPS/sec
+CPU, 8 threads, speed = 89920176571.03 IOPS/sec
+CPU, 8 threads, speed = 89942563979.42 IOPS/sec
+CPU, 8 threads, speed = 89945975376.19 IOPS/sec
+CPU, 8 threads, speed = 73031572370.11 IOPS/sec
+CPU, 8 threads, speed = 61886101723.11 IOPS/sec
+CPU, 8 threads, speed = 61887332664.89 IOPS/sec
+CPU, 8 threads, speed = 61877892034.44 IOPS/sec
+CPU, 8 threads, speed = 87637816006.00 IOPS/sec
+CPU, 8 threads, speed = 89886323720.19 IOPS/sec
+CPU, 8 threads, speed = 89934842202.76 IOPS/sec
+CPU, 8 threads, speed = 79998645805.39 IOPS/sec
+CPU, 8 threads, speed = 89777744481.61 IOPS/sec
+CPU, 8 threads, speed = 89908066909.51 IOPS/sec
+CPU, 8 threads, speed = 89934486488.90 IOPS/sec
+CPU, 8 threads, speed = 80227719852.04 IOPS/sec
+CPU, 8 threads, speed = 89775200684.11 IOPS/sec
+CPU, 8 threads, speed = 89923858220.02 IOPS/sec
+CPU, 8 threads, speed = 89854605897.79 IOPS/sec
+CPU, 8 threads, speed = 89934653883.31 IOPS/sec
+CPU, 8 threads, speed = 89882289842.89 IOPS/sec
+CPU, 8 threads, speed = 89937102097.71 IOPS/sec
+CPU, 8 threads, speed = 89934904976.09 IOPS/sec
+CPU, 8 threads, speed = 89941329243.15 IOPS/sec
+CPU, 8 threads, speed = 89924569482.41 IOPS/sec
+CPU, 8 threads, speed = 89934047081.55 IOPS/sec
+CPU, 8 threads, speed = 89936495262.91 IOPS/sec
+CPU, 8 threads, speed = 89851535597.80 IOPS/sec
+CPU, 8 threads, speed = 89829903241.85 IOPS/sec
+CPU, 8 threads, speed = 89939320253.20 IOPS/sec
+CPU, 8 threads, speed = 89938964503.91 IOPS/sec
+CPU, 8 threads, speed = 89931494418.99 IOPS/sec
+CPU, 8 threads, speed = 89923000536.22 IOPS/sec
+CPU, 8 threads, speed = 89897988469.81 IOPS/sec
+CPU, 8 threads, speed = 89924297527.81 IOPS/sec
+CPU, 8 threads, speed = 89928063199.29 IOPS/sec
+CPU, 8 threads, speed = 89925448116.19 IOPS/sec
+CPU, 8 threads, speed = 89867933849.44 IOPS/sec
+CPU, 8 threads, speed = 89929485868.37 IOPS/sec
+CPU, 8 threads, speed = 89926494131.18 IOPS/sec
+CPU, 8 threads, speed = 89928356098.06 IOPS/sec
+CPU, 8 threads, speed = 89937206725.23 IOPS/sec
+CPU, 8 threads, speed = 89943777821.01 IOPS/sec
+CPU, 8 threads, speed = 89913880813.13 IOPS/sec
+CPU, 8 threads, speed = 81906498437.73 IOPS/sec
+CPU, 8 threads, speed = 78126299919.96 IOPS/sec
+CPU, 8 threads, speed = 89897988469.81 IOPS/sec
+CPU, 8 threads, speed = 89800937217.16 IOPS/sec
+CPU, 8 threads, speed = 89891235924.96 IOPS/sec
+CPU, 8 threads, speed = 89936160461.01 IOPS/sec
+CPU, 8 threads, speed = 89932289495.07 IOPS/sec
+CPU, 8 threads, speed = 89916746214.88 IOPS/sec
+CPU, 8 threads, speed = 89909823549.32 IOPS/sec
+CPU, 8 threads, speed = 89917896610.03 IOPS/sec
+CPU, 8 threads, speed = 89925280756.05 IOPS/sec
+CPU, 8 threads, speed = 89903508331.17 IOPS/sec
+CPU, 8 threads, speed = 89931306113.56 IOPS/sec
+CPU, 8 threads, speed = 89850219819.17 IOPS/sec
+CPU, 8 threads, speed = 89934298170.94 IOPS/sec
+CPU, 8 threads, speed = 89901940119.81 IOPS/sec
+CPU, 8 threads, speed = 89935972136.04 IOPS/sec
+CPU, 8 threads, speed = 89942375627.63 IOPS/sec
+CPU, 8 threads, speed = 89942563979.42 IOPS/sec
+CPU, 8 threads, speed = 89849092039.60 IOPS/sec
+CPU, 8 threads, speed = 89925803758.56 IOPS/sec
+CPU, 8 threads, speed = 89931850109.18 IOPS/sec
+CPU, 8 threads, speed = 89924485803.90 IOPS/sec
+CPU, 8 threads, speed = 89800227909.16 IOPS/sec
+CPU, 8 threads, speed = 89934842202.76 IOPS/sec
+CPU, 8 threads, speed = 89923774542.83 IOPS/sec
+CPU, 8 threads, speed = 89914403683.04 IOPS/sec
+CPU, 8 threads, speed = 89923167887.87 IOPS/sec
+CPU, 8 threads, speed = 89935700112.47 IOPS/sec
+CPU, 8 threads, speed = 89940261956.06 IOPS/sec
+CPU, 8 threads, speed = 89939822492.27 IOPS/sec
+CPU, 8 threads, speed = 89906310338.34 IOPS/sec
+CPU, 8 threads, speed = 89842597415.64 IOPS/sec
+CPU, 8 threads, speed = 89924904198.02 IOPS/sec
+CPU, 8 threads, speed = 89926159403.74 IOPS/sec
+CPU, 8 threads, speed = 89910618242.26 IOPS/sec
+CPU, 8 threads, speed = 89908422414.41 IOPS/sec
+CPU, 8 threads, speed = 89947482333.23 IOPS/sec
+CPU, 8 threads, speed = 89909217082.58 IOPS/sec
+CPU, 8 threads, speed = 89914571002.70 IOPS/sec
+CPU, 8 threads, speed = 89936495262.91 IOPS/sec
+CPU, 8 threads, speed = 89920427582.97 IOPS/sec
+CPU, 8 threads, speed = 89841887449.37 IOPS/sec
+CPU, 8 threads, speed = 89921055118.97 IOPS/sec
+CPU, 8 threads, speed = 89939738785.37 IOPS/sec
+CPU, 8 threads, speed = 89944907978.83 IOPS/sec
+CPU, 8 threads, speed = 89912897834.17 IOPS/sec
+CPU, 8 threads, speed = 89922895941.75 IOPS/sec
+CPU, 8 threads, speed = 89900267421.32 IOPS/sec
+CPU, 8 threads, speed = 89922561241.09 IOPS/sec
+CPU, 8 threads, speed = 89914299108.57 IOPS/sec
+CPU, 8 threads, speed = 89940534007.23 IOPS/sec
+CPU, 8 threads, speed = 89866513127.17 IOPS/sec
+CPU, 8 threads, speed = 89943777821.01 IOPS/sec
+CPU, 8 threads, speed = 89899640175.43 IOPS/sec
+CPU, 8 threads, speed = 89939299326.69 IOPS/sec
+CPU, 8 threads, speed = 89947566054.55 IOPS/sec
+CPU, 8 threads, speed = 88536210025.84 IOPS/sec
+CPU, 8 threads, speed = 85701155167.42 IOPS/sec
+CPU, 8 threads, speed = 89940282883.02 IOPS/sec
+CPU, 8 threads, speed = 89938964503.91 IOPS/sec
+CPU, 8 threads, speed = 89938420422.21 IOPS/sec
+CPU, 8 threads, speed = 89821324179.26 IOPS/sec
+CPU, 8 threads, speed = 89940450299.00 IOPS/sec
+CPU, 8 threads, speed = 89944761475.29 IOPS/sec
+CPU, 8 threads, speed = 89913065148.22 IOPS/sec
+CPU, 8 threads, speed = 74221904781.87 IOPS/sec
+CPU, 8 threads, speed = 89888267634.91 IOPS/sec
+CPU, 8 threads, speed = 89927812144.71 IOPS/sec
+CPU, 8 threads, speed = 89755626607.25 IOPS/sec
+CPU, 8 threads, speed = 89922017357.84 IOPS/sec
+CPU, 8 threads, speed = 89844873559.61 IOPS/sec
+CPU, 8 threads, speed = 89953280402.72 IOPS/sec
+CPU, 8 threads, speed = 89927895829.41 IOPS/sec
+CPU, 8 threads, speed = 89947754428.08 IOPS/sec
+CPU, 8 threads, speed = 89943254609.41 IOPS/sec
+CPU, 8 threads, speed = 89949491687.84 IOPS/sec
+CPU, 8 threads, speed = 89930448287.68 IOPS/sec
+CPU, 8 threads, speed = 89936850992.66 IOPS/sec
+CPU, 8 threads, speed = 89945368421.64 IOPS/sec
+CPU, 8 threads, speed = 89942124493.13 IOPS/sec
+CPU, 8 threads, speed = 89860976917.49 IOPS/sec
+CPU, 8 threads, speed = 89940638642.73 IOPS/sec
+CPU, 8 threads, speed = 89945200987.35 IOPS/sec
+CPU, 8 threads, speed = 89939655078.62 IOPS/sec
+CPU, 8 threads, speed = 89896232292.42 IOPS/sec
+CPU, 8 threads, speed = 89934214474.32 IOPS/sec
+CPU, 8 threads, speed = 89946331180.93 IOPS/sec
+CPU, 8 threads, speed = 89953531599.52 IOPS/sec
+CPU, 8 threads, speed = 89930176297.52 IOPS/sec
+CPU, 8 threads, speed = 89935888436.30 IOPS/sec
+CPU, 8 threads, speed = 89853102051.17 IOPS/sec
+CPU, 8 threads, speed = 87457581451.22 IOPS/sec
+CPU, 8 threads, speed = 89901689211.06 IOPS/sec
+CPU, 8 threads, speed = 89930448287.68 IOPS/sec
+CPU, 8 threads, speed = 89935093296.59 IOPS/sec
+CPU, 8 threads, speed = 89937897272.94 IOPS/sec
+CPU, 8 threads, speed = 89921933684.08 IOPS/sec
+CPU, 8 threads, speed = 89937290427.42 IOPS/sec
+CPU, 8 threads, speed = 89932812579.10 IOPS/sec
+CPU, 8 threads, speed = 89939487665.60 IOPS/sec
+CPU, 8 threads, speed = 89858031514.13 IOPS/sec
+CPU, 8 threads, speed = 89940534007.23 IOPS/sec
+CPU, 8 threads, speed = 89908610624.02 IOPS/sec
+CPU, 8 threads, speed = 89931138731.62 IOPS/sec
+CPU, 8 threads, speed = 89909028870.43 IOPS/sec
+CPU, 8 threads, speed = 89898950215.07 IOPS/sec
+CPU, 8 threads, speed = 89933942461.38 IOPS/sec
+CPU, 8 threads, speed = 89933000890.84 IOPS/sec
+CPU, 8 threads, speed = 89924130171.96 IOPS/sec
+CPU, 8 threads, speed = 89858637290.54 IOPS/sec
+CPU, 8 threads, speed = 89939738785.37 IOPS/sec
+CPU, 8 threads, speed = 89924653161.08 IOPS/sec
+CPU, 8 threads, speed = 89924653161.08 IOPS/sec
+CPU, 8 threads, speed = 89943338322.86 IOPS/sec
+CPU, 8 threads, speed = 89932540574.65 IOPS/sec
+CPU, 8 threads, speed = 89111252087.75 IOPS/sec
+CPU, 8 threads, speed = 89904198361.50 IOPS/sec
+******************* Memory Benchmark **********************
+gcc memory_benchmark.c -o memory -lpthread
+./memory -w -o 1000000 -b 8 -t 1
+Memory, Latency -> Read write operations, 8B block size, 1 thread - 0.000734 us
+./memory -w -o 1000000 -b 8 -t 2
+Memory, Latency -> Read write operations, 8B block size, 2 thread - 0.000685 us
+./memory -w -o 100000 -b 8 -t 4
+Memory, Latency -> Read write operations, 8B block size, 4 thread - 0.001094 us
+./memory -w -o 100000 -b 8 -t 8
+Memory, Latency -> Read write operations, 8B block size, 8 thread - 0.001364 us
+./memory -w -o 1000 -b 8192 -t 1
+Memory, Throughput -> Read write operations, 8KB block size, 1 thread - 5637.02 MB/sec
+./memory -w -o 1000 -b 8192 -t 2
+Memory, Throughput -> Read write operations, 8KB block size, 2 thread - 13537.70 MB/sec
+./memory -w -o 1000 -b 8192 -t 4
+Memory, Throughput -> Read write operations, 8KB block size, 4 thread - 25490.47 MB/sec
+./memory -w -o 1000 -b 8192 -t 8
+Memory, Throughput -> Read write operations, 8KB block size, 8 thread - 47636.56 MB/sec
+./memory -w -o 1 -b 8388608 -t 1
+Memory, Throughput -> Read write operations, 8MB block size, 1 thread - 4054.43 MB/sec
+./memory -w -o 1 -b 8388608 -t 2
+Memory, Throughput -> Read write operations, 8MB block size, 2 thread - 8913.38 MB/sec
+./memory -w -o 1 -b 8388608 -t 4
+Memory, Throughput -> Read write operations, 8MB block size, 4 thread - 13875.50 MB/sec
+./memory -w -o 1 -b 8388608 -t 8
+Memory, Throughput -> Read write operations, 8MB block size, 8 thread - 18002.51 MB/sec
+./memory -w -o 1 -b 83886080 -t 1
+Memory, Throughput -> Read write operations, 80MB block size, 1 thread - 4461.02 MB/sec
+./memory -w -o 1 -b 83886080 -t 2
+Memory, Throughput -> Read write operations, 80MB block size, 2 thread - 9659.98 MB/sec
+./memory -w -o 1 -b 83886080 -t 4
+Memory, Throughput -> Read write operations, 80MB block size, 4 thread - 14295.21 MB/sec
+./memory -w -o 1 -b 83886080 -t 8
+Memory, Throughput -> Read write operations, 80MB block size, 8 thread - 18256.44 MB/sec
+./memory -s -o 100000 -b 8 -t 1
+Memory, Latency -> Write sequential operations, 8B block size, 1 thread - 0.000837 us
+./memory -s -o 100000 -b 8 -t 2
+Memory, Latency -> Write sequential operations, 8B block size, 2 thread - 0.000894 us
+./memory -s -o 100000 -b 8 -t 4
+Memory, Latency -> Write sequential operations, 8B block size, 4 thread - 0.000941 us
+./memory -s -o 100000 -b 8 -t 8
+Memory, Latency -> Write sequential operations, 8B block size, 8 thread - 0.001100 us
+./memory -s -o 1000 -b 8192 -t 1
+Memory, Throughput -> Write sequential operations, 8KB block size, 1 thread - 6019.10 MB/sec
+./memory -s -o 1000 -b 8192 -t 2
+Memory, Throughput -> Write sequential operations, 8KB block size, 2 thread - 9807.84 MB/sec
+./memory -s -o 1000 -b 8192 -t 4
+Memory, Throughput -> Write sequential operations, 8KB block size, 4 thread - 24453.73 MB/sec
+./memory -s -o 1000 -b 8192 -t 8
+Memory, Throughput -> Write sequential operations, 8KB block size, 8 thread - 47853.96 MB/sec
+./memory -s -o 1 -b 8388608 -t 1
+Memory, Throughput -> Write sequential operations, 8MB block size, 1 thread - 8154.18 MB/sec
+./memory -s -o 1 -b 8388608 -t 2
+Memory, Throughput -> Write sequential operations, 8MB block size, 2 thread - 17485.37 MB/sec
+./memory -s -o 1 -b 8388608 -t 4
+Memory, Throughput -> Write sequential operations, 8MB block size, 4 thread - 24577.50 MB/sec
+./memory -s -o 1 -b 8388608 -t 8
+Memory, Throughput -> Write sequential operations, 8MB block size, 8 thread - 24042.58 MB/sec
+./memory -s -o 1 -b 83886080 -t 1
+Memory, Throughput -> Write sequential operations, 80MB block size, 1 thread - 10206.67 MB/sec
+./memory -s -o 1 -b 83886080 -t 2
+Memory, Throughput -> Write sequential operations, 80MB block size, 2 thread - 20286.84 MB/sec
+./memory -s -o 1 -b 83886080 -t 4
+Memory, Throughput -> Write sequential operations, 80MB block size, 4 thread - 26680.26 MB/sec
+./memory -s -o 1 -b 83886080 -t 8
+Memory, Throughput -> Write sequential operations, 80MB block size, 8 thread - 26140.62 MB/sec
+./memory -r -o 100000 -b 8 -t 1
+Memory, Latency -> Write random operations, 8B block size, 1 thread - 0.005275 us
+./memory -r -o 100000 -b 8 -t 2
+Memory, Latency -> Write random operations, 8B block size, 2 thread - 0.033885 us
+./memory -r -o 100000 -b 8 -t 4
+Memory, Latency -> Write random operations, 8B block size, 4 thread - 0.173883 us
+./memory -r -o 100000 -b 8 -t 8
+Memory, Latency -> Write random operations, 8B block size, 8 thread - 0.342904 us
+./memory -r -o 1000 -b 8192 -t 1
+Memory, Throughput -> Write random operations, 8KB block size, 1 thread - 6746.55 MB/sec
+./memory -r -o 1000 -b 8192 -t 2
+Memory, Throughput -> Write random operations, 8KB block size, 2 thread - 10333.65 MB/sec
+./memory -r -o 1000 -b 8192 -t 4
+Memory, Throughput -> Write random operations, 8KB block size, 4 thread - 12850.20 MB/sec
+./memory -r -o 1000 -b 8192 -t 8
+Memory, Throughput -> Write random operations, 8KB block size, 8 thread - 11129.02 MB/sec
+./memory -r -o 1 -b 8388608 -t 1
+Memory, Throughput -> Write random operations, 8MB block size, 1 thread - 8619.17 MB/sec
+./memory -r -o 1 -b 8388608 -t 2
+Memory, Throughput -> Write random operations, 8MB block size, 2 thread - 17838.61 MB/sec
+./memory -r -o 1 -b 8388608 -t 4
+Memory, Throughput -> Write random operations, 8MB block size, 4 thread - 24240.15 MB/sec
+./memory -r -o 1 -b 8388608 -t 8
+Memory, Throughput -> Write random operations, 8MB block size, 8 thread - 24940.58 MB/sec
+./memory -r -o 1 -b 83886080 -t 1
+Memory, Throughput -> Write random operations, 80MB block size, 1 thread - 10295.93 MB/sec
+./memory -r -o 1 -b 83886080 -t 2
+Memory, Throughput -> Write random operations, 80MB block size, 2 thread - 20460.64 MB/sec
+./memory -r -o 1 -b 83886080 -t 4
+Memory, Throughput -> Write random operations, 80MB block size, 4 thread - 25790.27 MB/sec
+./memory -r -o 1 -b 83886080 -t 8
+Memory, Throughput -> Write random operations, 80MB block size, 8 thread - 26079.93 MB/sec
+****************** disk Benchmark *********************
+gcc disk_benchmark.c -o disk -lpthread
+./disk -w -o 10000000 -b 8 -t 1
+Disk, Latency -> Read write operations, 8B block size, 1 thread - 0.000006 ms
+./disk -w -o 10000000 -b 8 -t 2
+Disk, Latency -> Read write operations, 8B block size, 2 thread - 0.000010 ms
+./disk -w -o 10000000 -b 8 -t 4
+Disk, Latency -> Read write operations, 8B block size, 4 thread - 0.000011 ms
+./disk -w -o 10000000 -b 8 -t 8
+Disk, Latency -> Read write operations, 8B block size, 8 thread - 0.000011 ms
+./disk -w -o 10000 -b 8192 -t 1
+Disk, Throughput -> Read write operations, 8KB block size, 1 thread - 203.34 MB/sec
+./disk -w -o 10000 -b 8192 -t 2
+Disk, Throughput -> Read write operations, 8KB block size, 2 thread - 437.46 MB/sec
+./disk -w -o 10000 -b 8192 -t 4
+Disk, Throughput -> Read write operations, 8KB block size, 4 thread - 873.53 MB/sec
+./disk -w -o 10000 -b 8192 -t 8
+Disk, Throughput -> Read write operations, 8KB block size, 8 thread - 1789.93 MB/sec
+./disk -w -o 100000 -b 8388608 -t 1
+Disk, Throughput -> Read write operations, 8MB block size, 1 thread - 111.00 MB/sec
+./disk -w -o 100 -b 8388608 -t 2
+Disk, Throughput -> Read write operations, 8MB block size, 2 thread - 221.45 MB/sec
+./disk -w -o 10 -b 8388608 -t 4
+Disk, Throughput -> Read write operations, 8MB block size, 4 thread - 730.12 MB/sec
+./disk -w -o 10 -b 8388608 -t 8
+Disk, Throughput -> Read write operations, 8MB block size, 8 thread - 1445.37 MB/sec
+./disk -w -o 10000 -b 83886080 -t 1
+Disk, Throughput -> Read write operations, 80MB block size, 1 thread - 169.97 MB/sec
+./disk -w -o 10 -b 83886080 -t 2
+Disk, Throughput -> Read write operations, 80MB block size, 2 thread - 223.59 MB/sec
+./disk -w -o 1 -b 83886080 -t 4	
+Disk, Throughput -> Read write operations, 80MB block size, 4 thread - 608.97 MB/sec
+./disk -w -o 1 -b 83886080 -t 8
+Disk, Throughput -> Read write operations, 80MB block size, 8 thread - 1436.19 MB/sec
+./disk -s -o 100000 -b 8 -t 1
+Disk, Latency -> Read sequential operations, 8B block size, 1 thread - 0.000004 ms
+./disk -s -o 100000 -b 8 -t 2
+Disk, Latency -> Read sequential operations, 8B block size, 2 thread - 0.000003 ms
+./disk -s -o 100000 -b 8 -t 4
+Disk, Latency -> Read sequential operations, 8B block size, 4 thread - 0.000004 ms
+./disk -s -o 100000 -b 8 -t 8
+Disk, Latency -> Read sequential operations, 8B block size, 8 thread - 0.000005 ms
+./disk -s -o 100000 -b 8192 -t 1
+Disk, Throughput -> Read sequential operations, 8KB block size, 1 thread - 113.16 MB/sec
+./disk -s -o 100000 -b 8192 -t 2
+Disk, Throughput -> Read sequential operations, 8KB block size, 2 thread - 199.88 MB/sec
+./disk -s -o 10000 -b 8192 -t 4
+Disk, Throughput -> Read sequential operations, 8KB block size, 4 thread - 938.40 MB/sec
+./disk -s -o 10000 -b 8192 -t 8
+Disk, Throughput -> Read sequential operations, 8KB block size, 8 thread - 1813.71 MB/sec
+./disk -s -o 100 -b 8388608 -t 1
+Disk, Throughput -> Read sequential operations, 8MB block size, 1 thread - 5103.83 MB/sec
+./disk -s -o 100 -b 8388608 -t 2
+Disk, Throughput -> Read sequential operations, 8MB block size, 2 thread - 226.01 MB/sec
+./disk -s -o 10 -b 8388608 -t 4
+Disk, Throughput -> Read sequential operations, 8MB block size, 4 thread - 752.92 MB/sec
+./disk -s -o 10 -b 8388608 -t 8
+Disk, Throughput -> Read sequential operations, 8MB block size, 8 thread - 1461.26 MB/sec
+./disk -s -o 10000 -b 83886080 -t 1
+Disk, Throughput -> Read sequential operations, 80MB block size, 1 thread - 109.82 MB/sec
+./disk -s -o 10 -b 83886080 -t 2
+Disk, Throughput -> Read sequential operations, 80MB block size, 2 thread - 224.18 MB/sec
+./disk -s -o 1 -b 83886080 -t 4
+Disk, Throughput -> Read sequential operations, 80MB block size, 4 thread - 719.83 MB/sec
+./disk -s -o 1 -b 83886080 -t 8
+Disk, Throughput -> Read sequential operations, 80MB block size, 8 thread - 1442.20 MB/sec
+./disk -r -o 100000 -b 8 -t 1
+Disk, Latency -> Read random operations, 8B block size, 1 thread - 0.000024 ms
+./disk -r -o 100000 -b 8 -t 2
+Disk, Latency -> Read random operations, 8B block size, 2 thread - 0.000076 ms
+./disk -r -o 100000 -b 8 -t 4
+Disk, Latency -> Read random operations, 8B block size, 4 thread - 0.000239 ms
+./disk -r -o 100000 -b 8 -t 8
+Disk, Latency -> Read random operations, 8B block size, 8 thread - 0.000598 ms
+./disk -r -o 10000 -b 8192 -t 1
+Disk, Throughput -> Read random operations, 8KB block size, 1 thread - 240.69 MB/sec
+./disk -r -o 1000 -b 8192 -t 2
+Disk, Throughput -> Read random operations, 8KB block size, 2 thread - 4810.69 MB/sec
+./disk -r -o 1000 -b 8192 -t 4
+Disk, Throughput -> Read random operations, 8KB block size, 4 thread - 1612.66 MB/sec
+./disk -r -o 1000 -b 8192 -t 8
+Disk, Throughput -> Read random operations, 8KB block size, 8 thread - 1132.80 MB/sec
+./disk -r -o 100 -b 8388608 -t 1
+Disk, Throughput -> Read random operations, 8MB block size, 1 thread - 114.05 MB/sec
+./disk -r -o 100 -b 8388608 -t 2
+Disk, Throughput -> Read random operations, 8MB block size, 2 thread - 231.47 MB/sec
+./disk -r -o 10 -b 8388608 -t 4
+Disk, Throughput -> Read random operations, 8MB block size, 4 thread - 739.92 MB/sec
+./disk -r -o 10 -b 8388608 -t 8
+Disk, Throughput -> Read random operations, 8MB block size, 8 thread - 1539.34 MB/sec
+./disk -r -o 10 -b 83886080 -t 1
+Disk, Throughput -> Read random operations, 80MB block size, 1 thread - 112.78 MB/sec
+./disk -r -o 10 -b 83886080 -t 2
+Disk, Throughput -> Read random operations, 80MB block size, 2 thread - 221.54 MB/sec
+./disk -r -o 1 -b 83886080 -t 4
+Disk, Throughput -> Read random operations, 80MB block size, 4 thread - 797.09 MB/sec
+./disk -r -o 1 -b 83886080 -t 8
+Disk, Throughput -> Read random operations, 80MB block size, 8 thread - 1522.57 MB/sec
+******************* Network Benchmark **********************
+gcc server.c -o server -lpthread
+gcc client.c -o client -lpthread
+./server UDP 64kb 1
+./client UDP 64kb 1
+1 threads: the latency is 0.000034703 ms and the throughput is  27.480935 MB/S
+
+./server UDP 64kb 2
+./client UDP 64kb 2
+2 threads: the latency is 0.000025648 ms and the throughput is  37.182550 MB/S
+
+./server UDP 64kb 4
+./client UDP 64kb 4
+4 threads: the latency is 0.000033527 ms and the throughput is  28.444673 MB/S
+
+./server UDP 64kb 8
+./client UDP 64kb 8
+8 threads: the latency is 0.000033547 ms and the throughput is  28.428112 MB/S
+
+./server TCP 64kb 1
+./client TCP 64kb 1
+1 threads: the latency is 0.000009750 ms and the throughput is  97.812750 MB/S
+
+./server TCP 64kb 2
+./client TCP 64kb 2
+2 threads: the latency is 0.000004437 ms and the throughput is 214.912522 MB/S
+
+./server TCP 64kb 4
+./client TCP 64kb 4
+4 threads: the latency is 0.000003391 ms and the throughput is 281.268001 MB/S
+
+
+./server TCP 64kb 8
+./client TCP 64kb 8
+8 threads: the latency is 0.000002832 ms and the throughput is 336.745690 MB/S
+
